@@ -19,7 +19,7 @@ The central question is:
 
 ## Initial research collection
 
-The prepared collection contains:
+The initial release contains:
 
 - **62 selected human-centered litigation families**, plus one separately identified organization comparator.
 - **19 identified habeas proceedings** within that collection.
@@ -29,6 +29,26 @@ The prepared collection contains:
 - A reproducible acquisition workflow for **29,270 Supreme Court Database records**.
 
 The larger corpus is a separate research resource. It is not a representative sample of all habeas petitions or all harmful system failures.
+
+## Browse the research
+
+- [Case catalogue](methods/CASE_CATALOGUE.md) — all source-linked litigation families and interpretation limits.
+- [Habeas case table](methods/HABEAS_CASES.md) — verified habeas proceedings and separately marked non-habeas comparisons.
+- [Case data: CSV](data/curated/cases.csv) · [JSON](data/curated/cases.json) · [Codebook](methods/CODEBOOK.md).
+- [Analysis plan](methods/ANALYSIS_PLAN.md) — 25 ranked visualizations, proposed hypotheses, power calculations, and causal limits.
+- [Supreme Court Database coverage](SCDB_DATA.md) — frozen source versions, aggregate findings, and reproducible downloads.
+- [Reproduction guide](RESEARCH_GUIDE.md) — commands, files, classifications, and licensing.
+- [Publication and legal scope](methods/PUBLICATION_AND_LEGAL_SCOPE.md).
+
+### Dashboards and figures
+
+Download this repository and open [case-patterns.html](dashboard/case-patterns.html) or [research-design.html](dashboard/research-design.html) in your browser to use the interactive dashboards. GitHub's file viewer displays their source; it does not run the dashboards. Internet access is needed for the pinned D3 chart library.
+
+![Selected case patterns](reports/atlas/case-patterns.png)
+
+![Larger-corpus source coverage](reports/scdb/scdb_coverage_dashboard.png)
+
+![Research design and power planning](reports/research-design.png)
 
 ## How to interpret the evidence
 

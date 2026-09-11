@@ -1,0 +1,13 @@
+term_start,term_end,era,issue_code,label,candidate_count,all_case_denominator,candidate_percent_of_era
+1791,1849,1791–1849,10020,Habeas corpus issue,10,1859,0.537924
+1791,1849,1791–1849,90040,Comity: habeas corpus issue,0,1859,0.0
+1850,1899,1850–1899,10020,Habeas corpus issue,66,9188,0.718328
+1850,1899,1850–1899,90040,Comity: habeas corpus issue,0,9188,0.0
+1900,1945,1900–1945,10020,Habeas corpus issue,72,8814,0.816882
+1900,1945,1900–1945,90040,Comity: habeas corpus issue,0,8814,0.0
+1946,1979,1946–1979,10020,Habeas corpus issue,65,4827,1.346592
+1946,1979,1946–1979,90040,Comity: habeas corpus issue,5,4827,0.103584
+1980,1999,1980–1999,10020,Habeas corpus issue,73,2628,2.777778
+1980,1999,1980–1999,90040,Comity: habeas corpus issue,2,2628,0.076104
+2000,2025,2000–2025,10020,Habeas corpus issue,93,1954,4.759468
+2000,2025,2000–2025,90040,Comity: habeas corpus issue,3,1954,0.153531

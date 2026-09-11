@@ -1,0 +1,2273 @@
+[
+  {
+    "id": "thomas",
+    "name": "Thomas v. Winchester",
+    "short": "Thomas",
+    "year": 1852,
+    "last_year": 1852,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Damages judgment",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Remedy access"
+    ],
+    "summary": "The injured woman and her husband obtained an affirmed judgment against the remote supplier after falsely labeled poisonous medicine passed through several sellers.",
+    "limit": "An affirmed judgment does not prove payment; this historical duty rule retained restrictions for other products.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://www.nycourts.gov/reporter/archives/thomas_winchester.htm"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "thomas",
+    "included_by_default": true
+  },
+  {
+    "id": "yick_wo",
+    "name": "Yick Wo v. Hopkins",
+    "short": "Yick Wo",
+    "year": 1886,
+    "last_year": 1886,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Classification",
+      "Authority and rules",
+      "Incentives and independence"
+    ],
+    "summary": "The Supreme Court reversed the habeas judgments and directed discharge of petitioners imprisoned through discriminatory administration of an otherwise facially neutral municipal laundry-permit rule.",
+    "limit": "The judicial discharge direction is verified; execution of physical release is not separately established by the sources reviewed here.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/118/356/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": "State habeas petitions challenging imprisonment under discriminatory municipal licensing; US Supreme Court review.",
+    "system_group": "yick_wo",
+    "included_by_default": true
+  },
+  {
+    "id": "macpherson",
+    "name": "MacPherson v. Buick Motor Co.",
+    "short": "MacPherson",
+    "year": 1916,
+    "last_year": 1916,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Damages judgment",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The injured driver obtained an affirmed judgment against the manufacturer, whose purchased wheel component required reasonable inspection despite the absence of direct purchaser privity.",
+    "limit": "Negligence and causation mattered; the ruling did not impose strict liability for every malfunction or prove payment.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://www.nycourts.gov/reporter/archives/macpherson_buick.htm"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "macpherson",
+    "included_by_default": true
+  },
+  {
+    "id": "ng-fung-ho-1922",
+    "name": "Ng Fung Ho v. White, 259 U.S. 276",
+    "short": "Ng Fung Ho",
+    "year": 1922,
+    "last_year": 1922,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "Federal immigration custody and disputed citizenship classification.",
+    "alternative_sector": null,
+    "technology": "Administrative",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Classification",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "Two citizenship claimants won judicial determination; two other petitioners lost.",
+    "limit": "Citizenship and release were not established by this judgment.",
+    "sources": [
+      {
+        "label": "Supreme Court opinion (1922), pp. 278–85",
+        "url": "https://supreme.justia.com/cases/federal/us/259/276/"
+      }
+    ],
+    "restoration_note": "Remand for citizenship trial for two petitioners; no immediate discharge ordered for them.",
+    "habeas_vehicle": "Federal habeas challenging immigration custody under deportation warrants.",
+    "data_failure": "Disputed status classification supported by evidence requiring judicial determination; no established digital corruption.",
+    "holding_scope": "Judicial testing of citizenship supporting a challenge to executive deportation authority.",
+    "actual_computer_fault": false,
+    "cohort": "added",
+    "system_group": "ng-fung-ho-1922",
+    "data_status": "Disputed citizenship classification; qualifying evidence entitled two petitioners to judicial determination.",
+    "included_by_default": true
+  },
+  {
+    "id": "tumey",
+    "name": "Tumey v. Ohio",
+    "short": "Tumey",
+    "year": 1927,
+    "last_year": 1927,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Incentives and independence",
+      "Authority and rules",
+      "Notice and hearing"
+    ],
+    "summary": "The Supreme Court reversed a conviction because the mayor-judge’s financial interests created a constitutionally disqualifying adjudicatory arrangement connected to convictions and municipal revenue.",
+    "limit": "The specific financial structure mattered; this decision does not prove that every agency grant or budget creates unconstitutional bias.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/273/510/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "tumey",
+    "included_by_default": true
+  },
+  {
+    "id": "tj_hooper",
+    "name": "The T.J. Hooper",
+    "short": "T.J. Hooper",
+    "year": 1932,
+    "last_year": 1932,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Organization comparator",
+    "tags": [
+      "Design and components",
+      "Evidence and data"
+    ],
+    "summary": "Commercial cargo and vessel interests obtained an affirmed interlocutory liability decree concerning tugs that lacked radio receivers capable of receiving critical weather warnings.",
+    "limit": "The claimants were commercial interests; exclude this comparator from default human-case counts and do not infer a final payment.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/federal/appellate-courts/F2/60/737/1542549/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "tj_hooper",
+    "included_by_default": false
+  },
+  {
+    "id": "mooney",
+    "name": "Mooney v. Holohan",
+    "short": "Mooney",
+    "citation": "294 U.S. 103",
+    "year": 1935,
+    "last_year": 1935,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Administrative",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Court recognized the due-process problem alleged, but denied leave to file without prejudice because available state habeas remedies had not been pursued.",
+    "limit": "Do not count this decision as a granted writ or established factual exoneration.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 110–115",
+        "url": "https://supreme.justia.com/cases/federal/us/294/103/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No release or implementation of this habeas decision is established. The opinion separately reports an earlier death-to-life commutation; sentence mitigation is outside this dashboard’s specified release/payment/conviction-correction coverage field.",
+    "habeas_vehicle": "Motion for leave to file an original habeas petition in the US Supreme Court, following unsuccessful federal habeas proceedings.",
+    "data_failure": "Alleged knowing use of perjury and suppression of evidence contradicting it.",
+    "data_status": "Alleged; no merits fact adjudication in this disposition.",
+    "holding_scope": "Procedural refusal; favorable legal principle did not itself deliver relief.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Preserve both the factual challenge and a documented route through the required corrective forum.",
+    "cohort": "added",
+    "system_group": "mooney",
+    "included_by_default": true
+  },
+  {
+    "id": "pyle",
+    "name": "Pyle v. Kansas",
+    "short": "Pyle",
+    "citation": "317 U.S. 213",
+    "year": 1942,
+    "last_year": 1942,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access",
+      "Notice and hearing"
+    ],
+    "summary": "Denial of the habeas petition was reversed and remanded because the supported constitutional allegations had not been determined.",
+    "limit": "The regular appearance of the conviction record did not refute the allegations; their truth was not decided here.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 214–216",
+        "url": "https://supreme.justia.com/cases/federal/us/317/213/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Original state habeas petition in the Kansas Supreme Court; US Supreme Court review of its denial.",
+    "data_failure": "Alleged coerced perjury and deliberate suppression of favorable testimony.",
+    "data_status": "Allegations supported by submitted exhibits; truth still required determination.",
+    "holding_scope": "Opportunity to prove the claim, not a Supreme Court release order.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Do not treat a facially complete record as verification of the underlying evidence.",
+    "cohort": "added",
+    "system_group": "pyle",
+    "included_by_default": true
+  },
+  {
+    "id": "escola",
+    "name": "Escola v. Coca Cola Bottling Co.",
+    "short": "Escola",
+    "year": 1944,
+    "last_year": 1944,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Damages judgment",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The injured waitress obtained an affirmed judgment through an evidential inference of bottler negligence even though the precise mechanism of the exploding bottle was uncertain.",
+    "limit": "Strict liability appeared in Traynor’s concurrence, not the majority holding; payment and production changes were not verified.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/california/supreme-court/2d/24/453.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "escola",
+    "included_by_default": true
+  },
+  {
+    "id": "bridges-wixon-1945",
+    "name": "Bridges v. Wixon, 326 U.S. 135",
+    "short": "Bridges",
+    "year": 1945,
+    "last_year": 1945,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "Federal immigration detention and deportation authority.",
+    "alternative_sector": null,
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Notice and hearing",
+      "Authority and rules"
+    ],
+    "summary": "Detention held unlawful after statutory misclassification and materially improper evidence at a deportation hearing.",
+    "limit": "Not a finding that every disputed statement was false or that every evidentiary error warrants relief.",
+    "sources": [
+      {
+        "label": "Supreme Court opinion (1945), pp. 149–57",
+        "url": "https://supreme.justia.com/cases/federal/us/326/135/"
+      }
+    ],
+    "restoration_note": "Judgment denying habeas reversed; subsequent physical release not verified.",
+    "habeas_vehicle": "Federal habeas challenging detention under a deportation warrant.",
+    "data_failure": "Established improper admission of unsigned, unsworn statements and overbroad affiliation classification.",
+    "holding_scope": "Invalid detention order; consequential hearing and statutory defects.",
+    "actual_computer_fault": false,
+    "cohort": "added",
+    "system_group": "bridges-wixon-1945",
+    "data_status": "Consequential evidentiary and statutory defects established by the Court; no general fabrication finding.",
+    "included_by_default": true
+  },
+  {
+    "id": "francis-resweber-1947",
+    "name": "Louisiana ex rel. Francis v. Resweber, 329 U.S. 459",
+    "short": "Francis",
+    "year": 1947,
+    "last_year": 1947,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "State execution equipment and criminal custody.",
+    "alternative_sector": null,
+    "technology": "Physical",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Remedy access"
+    ],
+    "summary": "Following failed electrocution, denial of writ applications seeking to bar another attempt was affirmed.",
+    "limit": "Precise equipment defect was not diagnosed; controlling disposition addressed these circumstances.",
+    "sources": [
+      {
+        "label": "Supreme Court opinion (1947), pp. 460–66",
+        "url": "https://supreme.justia.com/cases/federal/us/329/459/"
+      }
+    ],
+    "restoration_note": "Requested protection denied; subsequent execution history not coded from this opinion.",
+    "habeas_vehicle": "State habeas among several writ applications, reviewed by Supreme Court certiorari.",
+    "data_failure": "Actual failed electrical/mechanical execution, not corrupted conviction evidence.",
+    "holding_scope": "Accidental unsuccessful execution did not bar a subsequent attempt on the record presented.",
+    "actual_computer_fault": false,
+    "cohort": "added",
+    "system_group": "francis-resweber-1947",
+    "data_status": "Failed electrocution was established; the plurality treated it as accidental.",
+    "actual_equipment_failure": true,
+    "included_by_default": true
+  },
+  {
+    "id": "knauff-1950",
+    "name": "United States ex rel. Knauff v. Shaughnessy, 338 U.S. 537",
+    "short": "Knauff",
+    "year": 1950,
+    "last_year": 1950,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "Federal border exclusion and Ellis Island detention.",
+    "alternative_sector": null,
+    "technology": "Administrative",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "Dismissal of habeas challenging exclusion without a hearing was affirmed under the governing emergency entry regime.",
+    "limit": "The judgment does not establish confidential information was false; coding concerns this decision only.",
+    "sources": [
+      {
+        "label": "Supreme Court opinion (1950), pp. 539–47",
+        "url": "https://supreme.justia.com/cases/federal/us/338/537/"
+      }
+    ],
+    "restoration_note": "No admission or release won in this Supreme Court judgment; later administrative history not coded.",
+    "habeas_vehicle": "Federal habeas testing exclusion without a hearing after detention at Ellis Island.",
+    "data_failure": "Inaccessible security information and unavailable adversarial testing; falsity not adjudicated.",
+    "holding_scope": "Historical initial-entry and emergency exclusion regime, not a rule for every detainee.",
+    "actual_computer_fault": false,
+    "cohort": "added",
+    "system_group": "knauff-1950",
+    "data_status": "Inaccessible security information; the selected judgment did not establish falsity.",
+    "included_by_default": true
+  },
+  {
+    "id": "accardi-1954-1955",
+    "name": "Accardi v. Shaughnessy, 347 U.S. 260; Shaughnessy v. Accardi, 349 U.S. 280",
+    "short": "Accardi",
+    "year": 1954,
+    "last_year": 1955,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "Federal immigration discretion and alleged superior influence.",
+    "alternative_sector": null,
+    "technology": "Administrative",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Authority and rules",
+      "Incentives and independence",
+      "Remedy access"
+    ],
+    "summary": "After winning an evidentiary hearing in 1954, the petitioner lost at the latest cited stage in 1955 when the Court sustained dismissal following a finding of independent Board discretion.",
+    "limit": "Alleged list-driven prejudgment was not established under the controlling 1955 findings.",
+    "sources": [
+      {
+        "label": "Supreme Court opinion (1954), pp. 261–68",
+        "url": "https://supreme.justia.com/cases/federal/us/347/260/"
+      },
+      {
+        "label": "Supreme Court opinion (1955), pp. 281–84",
+        "url": "https://supreme.justia.com/cases/federal/us/349/280/"
+      }
+    ],
+    "restoration_note": "Evidentiary hearing occurred; no protection from deportation established by the selected final decision.",
+    "habeas_vehicle": "Federal habeas challenging denial of discretionary suspension of deportation.",
+    "data_failure": "Alleged executive list or program displaced independent judgment; causal influence not proven to Court's satisfaction.",
+    "holding_scope": "Latest cited 1955 disposition was adverse. The earlier 1954 decision supplied an opportunity to prove prohibited interference, which was not established under the controlling later findings.",
+    "actual_computer_fault": false,
+    "cohort": "added",
+    "system_group": "accardi-1954-1955",
+    "data_status": "Alleged influence; after the ordered hearing the controlling 1955 finding was that the Board exercised independent discretion.",
+    "included_by_default": true
+  },
+  {
+    "id": "brown",
+    "name": "Brown v. Board of Education I and II",
+    "short": "Brown I / II",
+    "year": 1954,
+    "last_year": 1955,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Classification",
+      "Authority and rules",
+      "Design and components",
+      "Remedy access"
+    ],
+    "summary": "The Court held public-school segregation unconstitutional and subsequently remanded for equitable implementation, establishing a merits victory against the governing design followed by remedial proceedings.",
+    "limit": "The paired judgments do not establish immediate nationwide integration; later implementation requires independent historical evidence and cannot be assumed.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/347/483/"
+      },
+      {
+        "label": "1955 remedial judgment",
+        "url": "https://supreme.justia.com/cases/federal/us/349/294/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "brown",
+    "included_by_default": true
+  },
+  {
+    "id": "henningsen",
+    "name": "Henningsen v. Bloomfield Motors",
+    "short": "Henningsen",
+    "year": 1960,
+    "last_year": 1960,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Damages judgment",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "Judgments against manufacturer and dealer were affirmed after a defective car injured the purchaser’s wife; challenged warranty disclaimers and remedy restrictions were unenforceable.",
+    "limit": "The warranty holding is contextual, not a universal invalidation of disclaimers; actual payment is not established here.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/new-jersey/supreme-court/1960/32-n-j-358-0.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "henningsen",
+    "included_by_default": true
+  },
+  {
+    "id": "brady",
+    "name": "Brady v. Maryland",
+    "short": "Brady",
+    "year": 1963,
+    "last_year": 1963,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The Court affirmed relief requiring a new punishment proceeding for suppressed material favorable evidence, while declining to require a new trial on guilt.",
+    "limit": "Mixed reflects the actual scope of relief; a new punishment proceeding is not exoneration, release, or automatic compensation.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/373/83/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "brady",
+    "included_by_default": true
+  },
+  {
+    "id": "greenman",
+    "name": "Greenman v. Yuba Power Products",
+    "short": "Greenman",
+    "year": 1963,
+    "last_year": 1963,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Damages judgment",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Remedy access"
+    ],
+    "summary": "The California Supreme Court affirmed a $65,000 manufacturer judgment for the injured user and grounded responsibility in strict products liability rather than commercial warranty formalities.",
+    "limit": "The claimant still needed an injury-producing defect; the opinion does not establish actual payment or subsequent redesign.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/california/supreme-court/2d/59/57.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "greenman",
+    "included_by_default": true
+  },
+  {
+    "id": "townsend",
+    "name": "Townsend v. Sain",
+    "short": "Townsend",
+    "citation": "372 U.S. 293",
+    "year": 1963,
+    "last_year": 1963,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access",
+      "Notice and hearing"
+    ],
+    "summary": "The Court reversed and remanded for a federal evidentiary hearing under its then-governing standards.",
+    "limit": "Keeney later overruled part of Townsend’s hearing framework; modern §2254 restrictions also matter. A drug described as truth serum is not proof that the resulting statement is true.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 296–300, 320–322",
+        "url": "https://supreme.justia.com/cases/federal/us/372/293/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal habeas petition challenging a state conviction, before AEDPA.",
+    "data_failure": "Confession after administration of drugs; disputed voluntariness and inadequate development of drug-related facts.",
+    "data_status": "Drug administration documented; disputed coercion and effects required a hearing.",
+    "holding_scope": "Historical hearing victory, not adjudicated innocence or release.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Record how a statement was produced, not merely the signed or transcribed output.",
+    "cohort": "added",
+    "system_group": "townsend",
+    "included_by_default": true
+  },
+  {
+    "id": "miller_pate",
+    "name": "Miller v. Pate",
+    "short": "Miller",
+    "citation": "386 U.S. 1",
+    "year": 1967,
+    "last_year": 1967,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Supreme Court held the conviction constitutionally invalid, reversed the appellate judgment, and remanded; the district court had ordered release or prompt retrial.",
+    "limit": "The Supreme Court opinion does not document subsequent physical release. This was deliberate evidentiary misrepresentation, not an identified instrument malfunction.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 2–7",
+        "url": "https://supreme.justia.com/cases/federal/us/386/1/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal habeas petition challenging a state conviction, before AEDPA.",
+    "data_failure": "Paint stains were presented as human blood matching the victim’s blood type.",
+    "data_status": "Independent chemical retesting in habeas established paint; prosecution knowledge was established.",
+    "holding_scope": "Constitutional merits victory against knowing false evidence.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Preserve the original specimen and provide independent access to retesting.",
+    "cohort": "added",
+    "system_group": "miller_pate",
+    "included_by_default": true
+  },
+  {
+    "id": "goldberg",
+    "name": "Goldberg v. Kelly",
+    "short": "Goldberg",
+    "year": 1970,
+    "last_year": 1970,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Notice and hearing",
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Court affirmed procedural protections requiring an adequate pretermination evidentiary hearing for the welfare benefits at issue, including meaningful participation and a decision tied to evidence.",
+    "limit": "This established procedural requirements, not universal continued eligibility, actual benefit delivery, or identical hearing requirements for all public programs.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/397/254/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "goldberg",
+    "included_by_default": true
+  },
+  {
+    "id": "fuentes",
+    "name": "Fuentes v. Shevin",
+    "short": "Fuentes",
+    "year": 1972,
+    "last_year": 1972,
+    "country": "US",
+    "sector": "Mixed",
+    "sector_note": "Private creditor assertions activate coercive state seizure; both initiation and enforcement are material to the challenged decision chain.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Notice and hearing",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Court invalidated challenged state replevin procedures through which private creditors seized household goods without adequate prior opportunity to contest entitlement, vacating and remanding the judgments.",
+    "limit": "The decision recognized extraordinary situations permitting delay; modern prejudgment-seizure doctrine requires subsequent-history review, and returned property is not verified.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/407/67/"
+      }
+    ],
+    "alternative_sector": "Public",
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "fuentes",
+    "included_by_default": true
+  },
+  {
+    "id": "stanley",
+    "name": "Stanley v. Illinois",
+    "short": "Stanley",
+    "year": 1972,
+    "last_year": 1972,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Classification",
+      "Evidence and data",
+      "Notice and hearing",
+      "Authority and rules"
+    ],
+    "summary": "The Court reversed and remanded because the unmarried father was entitled to an individualized fitness hearing rather than automatic treatment as unfit after the mother’s death.",
+    "limit": "The Court did not determine parental fitness or order automatic physical return of the children; custody restoration remains unverified here.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/405/645/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "stanley",
+    "included_by_default": true
+  },
+  {
+    "id": "ward",
+    "name": "Ward v. Village of Monroeville",
+    "short": "Ward",
+    "year": 1972,
+    "last_year": 1972,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Incentives and independence",
+      "Authority and rules",
+      "Notice and hearing"
+    ],
+    "summary": "The Court reversed and remanded where a mayor’s responsibility for substantial court revenues compromised the adjudicatory arrangement; a later neutral trial did not cure that defect.",
+    "limit": "The decision concerns a specific structural incentive, not a presumption that all public officials or revenue-funded institutions are biased.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/409/57/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "ward",
+    "included_by_default": true
+  },
+  {
+    "id": "goss",
+    "name": "Goss v. Lopez",
+    "short": "Goss",
+    "year": 1975,
+    "last_year": 1975,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Notice and hearing",
+      "Evidence and data",
+      "Classification",
+      "Remedy access"
+    ],
+    "summary": "The Court affirmed relief against inadequate public-school suspension procedures, including ordered record correction and minimum notice, evidence explanation, and opportunity to give the student’s account.",
+    "limit": "An order to remove suspension references does not itself verify that every affected school record was corrected.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/419/565/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "goss",
+    "included_by_default": true
+  },
+  {
+    "id": "oconnor",
+    "name": "O’Connor v. Donaldson",
+    "short": "O’Connor",
+    "year": 1975,
+    "last_year": 1975,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Documented some restoration",
+    "plaintiff": "Human",
+    "tags": [
+      "Classification",
+      "Evidence and data",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Court preserved a constitutional liberty holding for the former patient but vacated and remanded for consideration of the superintendent’s immunity from damages.",
+    "limit": "Donaldson’s earlier release must not be attributed to this Supreme Court decision; final damages and broader institutional reform remain unverified.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/422/563/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "The opinion establishes Donaldson had already been released before this Supreme Court decision; this is documented restoration, not proof the decision caused his release.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "oconnor",
+    "included_by_default": true
+  },
+  {
+    "id": "barker",
+    "name": "Barker v. Lull Engineering",
+    "short": "Barker",
+    "year": 1978,
+    "last_year": 1978,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The defense judgment was reversed for instructional error; the court recognized consumer-expectation and risk-benefit design tests, including a defined conditional burden shift to the manufacturer.",
+    "limit": "A retrial opportunity is not a damages award; burden shifting requires the claimant’s threshold showing of design-related causation.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/california/supreme-court/3d/20/413.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "barker",
+    "included_by_default": true
+  },
+  {
+    "id": "craft",
+    "name": "Memphis Light, Gas & Water Division v. Craft",
+    "short": "Craft",
+    "year": 1978,
+    "last_year": 1978,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "A municipal utility controls billing enforcement and service cutoff. Computer mediation is discussed expressly; the constitutional holding concerns correction procedures.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The Court affirmed inadequate notice and dispute procedures before municipal utility cutoffs; customers required access to personnel empowered to correct errors before deprivation.",
+    "limit": "The opinion discusses computer-related error risk; it does not establish that all disputed bills arose from a proved software defect.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/436/1/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "craft",
+    "included_by_default": true
+  },
+  {
+    "id": "monell",
+    "name": "Monell v. Department of Social Services",
+    "short": "Monell",
+    "year": 1978,
+    "last_year": 1978,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Authority and rules",
+      "Classification",
+      "Remedy access"
+    ],
+    "summary": "The Court recognized municipal responsibility for constitutional injury caused by official policy or custom and reversed the contrary judgment in the public employees’ maternity-leave litigation.",
+    "limit": "This opened an institutional-liability route with remand; it did not establish final payment or automatic liability for every employee wrong.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/436/658/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "monell",
+    "included_by_default": true
+  },
+  {
+    "id": "vitek",
+    "name": "Vitek v. Jones",
+    "short": "Vitek",
+    "year": 1980,
+    "last_year": 1980,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Classification",
+      "Notice and hearing",
+      "Authority and rules"
+    ],
+    "summary": "The Court affirmed, with modification, an injunction requiring additional procedural protections before an inmate’s psychiatric transfer and involuntary treatment beyond the underlying prison sentence.",
+    "limit": "This was not release from prison; independent qualified assistance did not invariably mean a licensed lawyer under the controlling concurrence.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/445/480/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "vitek",
+    "included_by_default": true
+  },
+  {
+    "id": "grimshaw",
+    "name": "Grimshaw v. Ford Motor Co.",
+    "short": "Grimshaw",
+    "year": 1981,
+    "last_year": 1981,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Damages judgment",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Evidence and data",
+      "Incentives and independence"
+    ],
+    "summary": "The appellate court affirmed judgments arising from a fatal Pinto fire, including Grimshaw’s punitive damages reduced by the trial court to $3.5 million.",
+    "limit": "Do not report the initial $125 million verdict as sustained; the appellate record does not establish payment or fleetwide repair.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/california/court-of-appeal/3d/119/757.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "grimshaw",
+    "included_by_default": true
+  },
+  {
+    "id": "logan",
+    "name": "Logan v. Zimmerman Brush Co.",
+    "short": "Logan",
+    "year": 1982,
+    "last_year": 1982,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "Public adjudication and a state-imposed forfeiture rule are challenged, even though the underlying discrimination allegation concerned a private employer.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Capacity and delay",
+      "Notice and hearing",
+      "Remedy access",
+      "Authority and rules"
+    ],
+    "summary": "The Court reversed extinction of a timely discrimination claim caused by the commission’s missed conference deadline, restoring an opportunity for merits consideration under constitutionally adequate procedures.",
+    "limit": "The decision did not establish the employer committed discrimination or award damages; the private caption does not classify the challenged process.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/455/422/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "logan",
+    "included_by_default": true
+  },
+  {
+    "id": "santosky",
+    "name": "Santosky v. Kramer",
+    "short": "Santosky",
+    "year": 1982,
+    "last_year": 1982,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Notice and hearing",
+      "Authority and rules"
+    ],
+    "summary": "The Court vacated and remanded parental-rights termination proceedings, requiring at least clear and convincing evidence at the factfinding stage rather than a preponderance standard.",
+    "limit": "The decision did not order custody restoration; its qualitative legal burden should not be converted into an invented numerical probability.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/455/745/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "santosky",
+    "included_by_default": true
+  },
+  {
+    "id": "loudermill",
+    "name": "Cleveland Board of Education v. Loudermill",
+    "short": "Loudermill",
+    "year": 1985,
+    "last_year": 1985,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Notice and hearing",
+      "Evidence and data",
+      "Capacity and delay",
+      "Remedy access"
+    ],
+    "summary": "The Court allowed pretermination due-process claims to proceed and required a meaningful initial response opportunity; it rejected Loudermill’s separate nine-month-delay claim on the record.",
+    "limit": "The primary procedural victory did not establish reinstatement, compensation, or success on every alleged due-process violation.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/470/532/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "loudermill",
+    "included_by_default": true
+  },
+  {
+    "id": "boyle",
+    "name": "Boyle v. United Technologies",
+    "short": "Boyle",
+    "year": 1988,
+    "last_year": 1988,
+    "country": "US",
+    "sector": "Mixed",
+    "sector_note": "A private manufacturer produced military equipment under government-approved specifications; federal design discretion and private manufacture materially intersect.",
+    "technology": "Physical",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Court recognized a conditional government-contractor defense against military-equipment design claims, but vacated and remanded for clarification of the appellate court’s handling of the facts.",
+    "limit": "The defense harmed the claimant’s theory while remand preserved unresolved questions; code mixed rather than a final damages victory or blanket contractor immunity.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/487/500/"
+      }
+    ],
+    "alternative_sector": "Private",
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "boyle",
+    "included_by_default": true
+  },
+  {
+    "id": "west",
+    "name": "West v. Atkins",
+    "short": "West",
+    "year": 1988,
+    "last_year": 1988,
+    "country": "US",
+    "sector": "Mixed",
+    "sector_note": "The state’s custodial medical duty is delivered by a privately contracted doctor. The challenged issue is attribution of public responsibility through private delivery.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Court held that a doctor contracted to provide prison medical care acted under color of state law in that function, opening the constitutional claim on remand.",
+    "limit": "The decision did not find deliberate indifference, award damages, or make every contractor a state actor; function and duty mattered.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/487/42/"
+      }
+    ],
+    "alternative_sector": "Public",
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "west",
+    "included_by_default": true
+  },
+  {
+    "id": "keeney",
+    "name": "Keeney v. Tamayo-Reyes",
+    "short": "Keeney",
+    "citation": "504 U.S. 1",
+    "year": 1992,
+    "last_year": 1992,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Administrative",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Supreme Court reversed the ruling entitling the prisoner to an evidentiary hearing and remanded under a cause-and-prejudice or miscarriage-of-justice test.",
+    "limit": "The Court overruled Townsend only in the identified respect. The modern statute imposes additional constraints; do not present the 1992 test alone as a filing guide.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 3–5, 11–12",
+        "url": "https://supreme.justia.com/cases/federal/us/504/1/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal habeas petition challenging a state no-contest plea.",
+    "data_failure": "Alleged incomplete or inaccurate interpretation of the offense’s mental-state element and meaning of the plea.",
+    "data_status": "Alleged mistranslation; state findings rejected the challenge; further federal fact development was disputed.",
+    "holding_scope": "Adverse hearing-access decision; not a final adjudication that the translation allegation was true.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Verify understanding before acceptance; retain the source language, interpretation, and contemporaneous comprehension check.",
+    "cohort": "added",
+    "system_group": "keeney",
+    "included_by_default": true
+  },
+  {
+    "id": "herrera",
+    "name": "Herrera v. Collins",
+    "short": "Herrera",
+    "citation": "506 U.S. 390",
+    "year": 1993,
+    "last_year": 1993,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Administrative",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Supreme Court held that this freestanding actual-innocence claim did not entitle Herrera to federal habeas relief and affirmed.",
+    "limit": "Do not label these allegations proven corruption, or say the Court held no conceivable innocence claim could ever matter.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 398–405, 417–419",
+        "url": "https://supreme.justia.com/cases/federal/us/506/390/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Second federal habeas petition challenging a state capital conviction.",
+    "data_failure": "Later affidavits asserted that the prisoner’s deceased brother committed the murders.",
+    "data_status": "Contested new innocence evidence; Court found the showing insufficient.",
+    "holding_scope": "Relief denied; the Court assumed rather than resolved a hypothetical exceptionally strong freestanding innocence claim.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Distinguish correcting a disputed factual record from proving a cognizable constitutional ground and satisfying its threshold.",
+    "cohort": "added",
+    "system_group": "herrera",
+    "included_by_default": true
+  },
+  {
+    "id": "kyles",
+    "name": "Kyles v. Whitley",
+    "short": "Kyles",
+    "citation": "514 U.S. 419",
+    "year": 1995,
+    "last_year": 1995,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Supreme Court reversed denial of habeas relief and held Kyles entitled to a new trial.",
+    "limit": "The judgment does not itself prove physical release. Cumulative materiality is not a rule that every omitted item automatically invalidates a conviction.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 421–422, 434–438, 454",
+        "url": "https://supreme.justia.com/cases/federal/us/514/419/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal habeas petition challenging a state capital conviction, before AEDPA.",
+    "data_failure": "Suppressed eyewitness statements, inconsistent informant accounts, and other favorable evidence.",
+    "data_status": "Material suppression established by the Court’s cumulative review.",
+    "holding_scope": "Merits victory under Brady materiality; prosecution responsibility reaches favorable evidence known to police acting for the government.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Maintain source-linked contradictions and review the combined effect of omitted evidence across agency boundaries.",
+    "cohort": "added",
+    "system_group": "kyles",
+    "included_by_default": true
+  },
+  {
+    "id": "cushman",
+    "name": "Cushman v. Trans Union",
+    "short": "Cushman",
+    "year": 1997,
+    "last_year": 1997,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "Private credit-reporting and reinvestigation process; computerized information handling is not itself proof of an algorithmic calculation defect.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Remedy access"
+    ],
+    "summary": "The consumer won reversal of judgment against her; reasonable reinvestigation of disputed credit information can require checking original sources rather than merely repeating their confirmation.",
+    "limit": "Final liability and compensation were not determined; the opinion applied an earlier statutory version and a fact-dependent verification duty.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/federal/appellate-courts/F3/115/220/568353/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "cushman",
+    "included_by_default": true
+  },
+  {
+    "id": "hamdi",
+    "name": "Hamdi v. Rumsfeld",
+    "short": "Hamdi",
+    "year": 2004,
+    "last_year": 2004,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Classification",
+      "Evidence and data",
+      "Notice and hearing",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Court vacated and remanded for a meaningful opportunity to contest enemy-combatant classification, while the plurality accepted statutory detention authority in defined circumstances and adapted procedures.",
+    "limit": "The judgment did not order release or find the classification false; factual challenge rights and detention authority are separate holdings.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/542/507/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": "Federal habeas under 28 U.S.C. §2241 challenging executive military detention.",
+    "system_group": "hamdi",
+    "included_by_default": true
+  },
+  {
+    "id": "house",
+    "name": "House v. Bell",
+    "short": "House",
+    "citation": "547 U.S. 518",
+    "year": 2006,
+    "last_year": 2006,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access",
+      "Notice and hearing"
+    ],
+    "summary": "House satisfied the demanding innocence gateway and could pursue his defaulted constitutional claims on remand.",
+    "limit": "The Court expressly distinguished serious doubt sufficient for the gateway from conclusive exoneration and hypothetical freestanding innocence relief.",
+    "sources": [
+      {
+        "label": "Primary opinion; 547 U.S. pp. 537–555",
+        "url": "https://www.law.cornell.edu/supct/html/04-8990.ZO.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal habeas petition; actual-innocence gateway through state procedural default.",
+    "data_failure": "DNA excluded House as the semen source; blood handling and contamination evidence undermined the prosecution’s forensic narrative.",
+    "data_status": "DNA source correction established; the full forensic and witness record was assessed together, not as conclusive exoneration.",
+    "holding_scope": "Review-access victory; no freestanding innocence relief or release ordered in this opinion.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Keep chain-of-custody, packaging, transport conditions, retesting, and competing source explanations available for independent review.",
+    "cohort": "added",
+    "system_group": "house",
+    "included_by_default": true
+  },
+  {
+    "id": "boumediene",
+    "name": "Boumediene v. Bush",
+    "short": "Boumediene",
+    "year": 2008,
+    "last_year": 2008,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Authority and rules",
+      "Evidence and data",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The Court held the Suspension Clause applicable and the substitute review inadequate, invalidating jurisdiction stripping and returning the cases for meaningful habeas proceedings.",
+    "limit": "The decision neither adjudicated these detentions lawful or unlawful nor ordered release; later merits and implementation require separate evidence.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/553/723/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": "Federal habeas challenges to Guantánamo detention and constitutional adequacy of the substitute review process.",
+    "system_group": "boumediene",
+    "included_by_default": true
+  },
+  {
+    "id": "wyeth",
+    "name": "Wyeth v. Levine",
+    "short": "Wyeth",
+    "year": 2009,
+    "last_year": 2009,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "Private manufacturer warning duty; federal regulation is a legal constraint, not sufficient alone to code joint operational control.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Damages judgment",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Supreme Court affirmed the injured patient’s judgment, rejecting federal preemption because the manufacturer could strengthen its warning through the regulatory route available on that record.",
+    "limit": "Regulatory ability to change warnings was decisive; the result does not establish all approved-product injuries are compensable or prove payment.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/555/555/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "wyeth",
+    "included_by_default": true
+  },
+  {
+    "id": "mcdaniel",
+    "name": "McDaniel v. Brown",
+    "short": "McDaniel",
+    "citation": "558 U.S. 120",
+    "year": 2010,
+    "last_year": 2010,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Physical",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Court reversed the appellate grant on the insufficiency theory. A newly recast DNA due-process claim was forfeited; other ineffective-assistance grounds remained for further consideration.",
+    "limit": "An insufficiency analysis considers all trial-admitted evidence; it cannot simply delete disputed evidence using a later expert report. The case was decided January 11, 2010, despite one publisher’s 2009 header.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 128–136",
+        "url": "https://supreme.justia.com/cases/federal/us/558/120/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal §2254 habeas petition challenging a state rape conviction.",
+    "data_failure": "DNA testimony conflated random-match probability with source probability; sibling-match probabilities were disputed.",
+    "data_status": "The State acknowledged the prosecutor’s fallacy; the DNA match itself was not disproved.",
+    "holding_scope": "Adverse ruling on the reviewed theories, not final rejection of every habeas ground.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Type-check probabilities and preserve the precise constitutional claim; statistical error and the applicable legal remedy are separate questions.",
+    "cohort": "added",
+    "system_group": "mcdaniel",
+    "included_by_default": true
+  },
+  {
+    "id": "plata",
+    "name": "Brown v. Plata",
+    "short": "Plata",
+    "year": 2011,
+    "last_year": 2011,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "Public prison capacity and delivery of constitutionally required care. Administrative category captures institutional operation, not a claim that physical conditions were absent.",
+    "technology": "Administrative",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Capacity and delay",
+      "Design and components",
+      "Remedy access"
+    ],
+    "summary": "The Court affirmed a structural population-reduction order after findings that overcrowding primarily caused unconstitutional prison care and less intrusive remedies had failed.",
+    "limit": "The 137.5% capacity limit was case-specific; the appellate opinion does not by itself measure subsequent care quality or completed compliance.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/563/493/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "plata",
+    "included_by_default": true
+  },
+  {
+    "id": "connick",
+    "name": "Connick v. Thompson",
+    "short": "Connick",
+    "year": 2011,
+    "last_year": 2011,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Documented some restoration",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access",
+      "Authority and rules"
+    ],
+    "summary": "The Court reversed a $14 million municipal failure-to-train judgment because the record failed the deliberate-indifference requirements of the institutional-liability theory at issue.",
+    "limit": "This damages-route loss does not erase the underlying disclosure wrong or reverse Thompson’s acquittal, and does not decide all remedy theories.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/563/51/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "The majority opinion records prior vacatur of both convictions, a 2003 acquittal at murder retrial, and release before the damages litigation. The 2011 decision reversed the $14 million damages judgment; it did not cause that earlier liberty restoration.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "connick",
+    "included_by_default": true
+  },
+  {
+    "id": "pliva",
+    "name": "PLIVA, Inc. v. Mensing",
+    "short": "PLIVA",
+    "year": 2011,
+    "last_year": 2011,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "Private product suppliers subject to federal labeling constraints; regulation alone does not make the operating system public.",
+    "technology": "Physical",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Design and components",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Supreme Court held the generic-drug warning claims preempted because federal requirements prevented the manufacturers from independently making the labeling changes required by state law.",
+    "limit": "A barrier to these state-law claims does not establish that the products caused no harm or that all legal routes are unavailable.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/564/604/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "pliva",
+    "included_by_default": true
+  },
+  {
+    "id": "mcquiggin",
+    "name": "McQuiggin v. Perkins",
+    "short": "McQuiggin",
+    "citation": "569 U.S. 383",
+    "year": 2013,
+    "last_year": 2013,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Administrative",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Court recognized an innocence gateway through the limitations period, but vacated the favorable appellate judgment and remanded, emphasizing the demanding showing and relevance of delay.",
+    "limit": "This was neither proof of innocence nor an automatic exemption from habeas deadlines; second-or-successive petitions present separate restrictions.",
+    "sources": [
+      {
+        "label": "Primary opinion; pp. 386–387, 392–401",
+        "url": "https://supreme.justia.com/cases/federal/us/569/383/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal §2254 habeas petition; proposed innocence gateway through §2244(d) limitations.",
+    "data_failure": "Later affidavits identified a different killer; reliability and unexplained delay were contested.",
+    "data_status": "Innocence not established by the Supreme Court; the district court had found the showing inadequate.",
+    "holding_scope": "Favorable gateway doctrine with a mixed individual disposition.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Keep timestamped provenance and reasons for delayed discovery; separate evidentiary credibility from simple elapsed-time counts.",
+    "cohort": "added",
+    "system_group": "mcquiggin",
+    "included_by_default": true
+  },
+  {
+    "id": "han_tak_lee",
+    "name": "Han Tak Lee v. Superintendent Houtzdale SCI",
+    "short": "Han Tak Lee",
+    "citation": "798 F.3d 159",
+    "year": 2015,
+    "last_year": 2015,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged detention rests on a state criminal conviction; the respondent is the public custodian.",
+    "technology": "Physical",
+    "direction": "Favorable",
+    "stage": "Merits or injunction",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "The Third Circuit affirmed conditional habeas relief requiring retrial or release within 120 days under the district court order.",
+    "limit": "Review without AEDPA deference rested on this case’s procedural history; the opinion flags later law that might have changed that analysis. No computer breakdown was found.",
+    "sources": [
+      {
+        "label": "Primary opinion; 798 F.3d pp. 161–167; slip pp. 6, 12 n.5, 14–19",
+        "url": "https://www2.ca3.uscourts.gov/opinarch/143876p.pdf"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "This reviewed decision does not establish completed physical release or subsequent compensation.",
+    "habeas_vehicle": "Federal §2254 habeas petition; Third Circuit appeal from conditional relief.",
+    "data_failure": "Discredited arson theories and gas-chromatography interpretations underpinned the conviction; retesting undermined their reliability.",
+    "data_status": "The Commonwealth conceded the scientific foundations were invalid or unreliable; remaining evidence did not supply the necessary support.",
+    "holding_scope": "Actual grant of habeas relief, based on trial unfairness rather than a freestanding innocence claim. The filing discussion applies clerk obligations to automated systems; it preserved the state’s appeal, then the court affirmed relief for Lee.",
+    "actual_computer_fault": false,
+    "computer_fault_note": "No computer or electrical malfunction is identified as the basis of the reviewed holding; false is a coding exclusion, not a finding about every event in the case.",
+    "proposed_model": "Version scientific methods, preserve samples, and reopen dependent conclusions when a foundational method is invalidated.",
+    "cohort": "added",
+    "system_group": "han_tak_lee",
+    "electronic_filing_issue": true,
+    "computer_issue_scope": "The opinion separately addresses electronic filing and receipt-date errors in the state’s appeal. The habeas merits concerned unreliable forensic evidence.",
+    "included_by_default": true
+  },
+  {
+    "id": "kw",
+    "name": "K.W. v. Armstrong",
+    "short": "K.W.",
+    "year": 2015,
+    "last_year": 2015,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Classification",
+      "Evidence and data",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The appellate court affirmed expanded preliminary protection against disability-service reductions without adequate notice, continuing prior services pending intelligible explanation and a fair-hearing opportunity.",
+    "limit": "Interim protection is not a final finding that every budget was incorrect; delivered care for each recipient was not independently verified.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/14-35296/14-35296-2015-06-05.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "kw",
+    "included_by_default": true
+  },
+  {
+    "id": "loomis",
+    "name": "State v. Loomis",
+    "short": "Loomis",
+    "year": 2016,
+    "last_year": 2016,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential act is public sentencing. Proprietary private scoring is an important component, rather than the holder of sentencing authority.",
+    "technology": "Computerized",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Classification",
+      "Evidence and data",
+      "Notice and hearing"
+    ],
+    "summary": "The Wisconsin Supreme Court denied resentencing while limiting permissible uses of COMPAS risk scores and emphasizing other factors supporting the sentencing decision.",
+    "limit": "The claimant lost; cautions do not constitute certification of COMPAS accuracy, fairness, or suitability for every sentencing context.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://www.wicourts.gov/sc/opinion/DisplayDocument.pdf?content=pdf&seqNo=171690"
+      }
+    ],
+    "alternative_sector": "Mixed",
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "loomis",
+    "included_by_default": true
+  },
+  {
+    "id": "ledgerwood",
+    "name": "Arkansas Department of Human Services v. Ledgerwood",
+    "short": "Ledgerwood",
+    "year": 2017,
+    "last_year": 2017,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Notice and hearing",
+      "Authority and rules",
+      "Classification",
+      "Remedy access"
+    ],
+    "summary": "The Arkansas Supreme Court affirmed temporary protection for named care recipients, based on irreparable harm and likely success against inadequate rulemaking notice for an algorithmic methodology change.",
+    "limit": "The interlocutory ruling did not settle every merits issue, prohibit algorithms nationally, or verify care delivered after the order.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "ledgerwood",
+    "included_by_default": true
+  },
+  {
+    "id": "houston",
+    "name": "Houston Federation of Teachers v. Houston Independent School District",
+    "short": "Houston teachers",
+    "year": 2017,
+    "last_year": 2017,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "Public district employment decisions used privately controlled proprietary EVAAS scoring. Primary coding follows the public employer’s challenged deprivation; mixed is plausible.",
+    "technology": "Computerized",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "Teachers’ procedural due-process claim concerning unverifiable employment ratings survived the district’s summary-judgment motion; the district received judgment on all other claims in that order.",
+    "limit": "This was a mixed interlocutory ruling, not damages, final algorithm invalidation, or verified implementation of a later settlement.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-txsd-4_14-cv-01189/pdf/USCOURTS-txsd-4_14-cv-01189-0.pdf"
+      }
+    ],
+    "alternative_sector": "Mixed",
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "houston",
+    "included_by_default": true
+  },
+  {
+    "id": "cahoo",
+    "name": "Cahoo v. SAS Institute and related officials",
+    "short": "Cahoo",
+    "year": 2019,
+    "last_year": 2023,
+    "country": "US",
+    "sector": "Mixed",
+    "sector_note": "Public fraud adjudication and collection used private system suppliers; the cited appeal resolves officials’ immunity while private claims remained pending.",
+    "technology": "Computerized",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Notice and hearing",
+      "Classification",
+      "Remedy access"
+    ],
+    "summary": "After early pleading-stage success, the 2023 appeal granted qualified immunity to the two remaining agency supervisors; claims against private defendants remained pending at that stage.",
+    "limit": "Adverse codes this officials’ appeal, not final resolution of every defendant or judicial approval of the MiDAS system.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/federal/appellate-courts/ca6/21-1407/21-1407-2023-06-15.html"
+      }
+    ],
+    "alternative_sector": "Public",
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "MiDAS",
+    "included_by_default": true
+  },
+  {
+    "id": "regents",
+    "name": "DHS v. Regents of the University of California",
+    "short": "Regents",
+    "year": 2020,
+    "last_year": 2020,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Authority and rules",
+      "Evidence and data",
+      "Remedy access"
+    ],
+    "summary": "DACA recipients and institutional plaintiffs secured remand of rescission for inadequate consideration of alternatives and reliance interests; not every asserted claim succeeded.",
+    "limit": "This historical explanation-and-consideration ruling does not establish permanent DACA continuation, current availability, or success on every constitutional theory.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://supreme.justia.com/cases/federal/us/591/18-587/"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "regents",
+    "included_by_default": true
+  },
+  {
+    "id": "syri",
+    "name": "NJCM and others v. Netherlands (SyRI)",
+    "short": "SyRI",
+    "year": 2020,
+    "last_year": 2020,
+    "country": "Netherlands",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Computerized",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "Successful collective claimants obtained an Article 8 ruling against the challenged SyRI legal provisions, while some claims were inadmissible and other requested relief, including general deletion, was refused.",
+    "limit": "Mixed codes differing claimants and remedies; the substantive architecture challenge succeeded, but no universal compensation or deletion order followed.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBDHA:2020:1878"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "syri",
+    "included_by_default": true
+  },
+  {
+    "id": "hamilton",
+    "name": "Hamilton and others v. Post Office",
+    "short": "Horizon appeals",
+    "year": 2021,
+    "last_year": 2021,
+    "country": "UK",
+    "sector": "Mixed",
+    "sector_note": "Post Office enterprise accounting, private vendor technology and employer-led prosecutions fed criminal enforcement; mixed describes the operational chain, not corporate form alone.",
+    "technology": "Computerized",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Documented some restoration",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The Court of Appeal quashed convictions of 39 appellants on abuse-of-process grounds while dismissing three appeals whose individual evidentiary circumstances differed.",
+    "limit": "Legal nullification of convictions is established; complete compensation, personal restoration, and correction of every downstream record are not.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2021/577"
+      }
+    ],
+    "alternative_sector": "Public",
+    "restoration_note": "The appellate judgment itself quashed 39 convictions. This is an executed legal correction for those appellants, not proof of compensation or complete downstream record repair.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "hamilton",
+    "included_by_default": true
+  },
+  {
+    "id": "robodebt",
+    "name": "Prygodicz / Knox Robodebt settlement sequence",
+    "short": "Robodebt",
+    "year": 2021,
+    "last_year": 2026,
+    "country": "Australia",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Settlement",
+    "implementation": "Documented some restoration",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The sequence includes an approved 2021 settlement, documented refunds and original settlement payments, and approval of additional compensation in June 2026 for the automated-debt scheme.",
+    "limit": "Settlements are not contested verdicts on every allegation; approval of the newest compensation does not establish its complete payment.",
+    "sources": [
+      {
+        "label": "2021 settlement judgment",
+        "url": "https://casechat.au/cases/au/prygodicz-v-commonwealth-of-australia-no-2"
+      },
+      {
+        "label": "Original refunds and payments",
+        "url": "https://www.servicesaustralia.gov.au/robodebt-class-action-settlement"
+      },
+      {
+        "label": "2026 settlement approval",
+        "url": "https://www.servicesaustralia.gov.au/new-robodebt-class-action-settlement"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "Services Australia reports refunds largely paid in late 2020 and original settlement payments made in September 2022. Additional compensation was approved in June 2026; its completed payment is not established.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "robodebt",
+    "included_by_default": true
+  },
+  {
+    "id": "transunion",
+    "name": "TransUnion LLC v. Ramirez",
+    "short": "TransUnion",
+    "year": 2021,
+    "last_year": 2021,
+    "country": "US",
+    "sector": "Private",
+    "sector_note": "The challenged product or information service is privately operated.",
+    "technology": "Computerized",
+    "direction": "Mixed",
+    "stage": "Mixed disposition",
+    "implementation": "Not established in sources",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Remedy access"
+    ],
+    "summary": "The Court found standing for 1,853 class members whose misleading reports reached third parties but not 6,332 with undisclosed internal files on that theory, reversing and remanding.",
+    "limit": "These are claim- and dissemination-specific standing results; the judgment does not establish that internal misclassification was accurate or every class member received compensation.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://www.supremecourt.gov/opinions/20pdf/20-297_4g25.pdf"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "transunion",
+    "included_by_default": true
+  },
+  {
+    "id": "bauserman",
+    "name": "Bauserman v. Unemployment Insurance Agency",
+    "short": "Bauserman",
+    "year": 2022,
+    "last_year": 2024,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Settlement",
+    "implementation": "Documented some restoration",
+    "plaintiff": "Represented humans",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The Michigan Supreme Court recognized a constitutional damages claim; the later $20 million settlement was finally approved, with individual reversals and seized-money returns recorded earlier.",
+    "limit": "State constitutional reasoning is not a nationwide federal rule; class settlement approval does not establish every payment reached its recipient.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://law.justia.com/cases/michigan/supreme-court/2022/160813.html"
+      },
+      {
+        "label": "Final settlement approval",
+        "url": "https://www.michigan.gov/ag/news/press-releases/2024/01/30/class-action-settlement-approved-by-court-of-claims"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "The 2022 opinion records reversals of Bauserman’s and Broe’s determinations and returns of improperly seized money. The 2024 $20 million class settlement approval does not verify every class payment.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "MiDAS",
+    "included_by_default": true
+  },
+  {
+    "id": "egbert",
+    "name": "Egbert v. Boule",
+    "short": "Egbert",
+    "year": 2022,
+    "last_year": 2022,
+    "country": "US",
+    "sector": "Public",
+    "sector_note": "The challenged consequential process is controlled by a public institution.",
+    "technology": "Administrative",
+    "direction": "Adverse",
+    "stage": "Adverse",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The Court rejected extending Bivens damages remedies to the border-agent excessive-force and First Amendment retaliation claims before it, reversing the contrary appellate judgment.",
+    "limit": "This is a damages-remedy barrier, not a determination that all alleged conduct was lawful or that every possible form of relief is barred.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://www.supremecourt.gov/opinions/21pdf/21-147_g31h.pdf"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "egbert",
+    "included_by_default": true
+  },
+  {
+    "id": "schufa",
+    "name": "SCHUFA Holding, C-634/21",
+    "short": "SCHUFA",
+    "year": 2023,
+    "last_year": 2023,
+    "country": "EU",
+    "sector": "Private",
+    "sector_note": "The challenged consequential information service is private credit scoring and reliance by private customers; regulator litigation does not make the underlying service public.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Classification",
+      "Evidence and data",
+      "Authority and rules",
+      "Remedy access"
+    ],
+    "summary": "The CJEU held that a credit score strongly relied upon in a consequential decision can itself constitute automated decision-making, preventing responsibility from disappearing between producer and user.",
+    "limit": "This preliminary ruling did not award a loan or damages; exceptions and national-law application remained for the referring court.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0634"
+      }
+    ],
+    "alternative_sector": null,
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "schufa",
+    "included_by_default": true
+  },
+  {
+    "id": "ck",
+    "name": "CK v. Magistrat der Stadt Wien, C-203/22",
+    "short": "CK / D&B",
+    "year": 2025,
+    "last_year": 2025,
+    "country": "EU",
+    "sector": "Private",
+    "sector_note": "Primary coding follows private Dun & Bradstreet scoring and explanation duties; the public authority’s failed enforcement makes mixed classification plausible.",
+    "technology": "Computerized",
+    "direction": "Favorable",
+    "stage": "Procedural or interim",
+    "implementation": "Not established in sources",
+    "plaintiff": "Human",
+    "tags": [
+      "Evidence and data",
+      "Classification",
+      "Notice and hearing",
+      "Remedy access"
+    ],
+    "summary": "The CJEU required intelligible information about the procedure actually applied to personal data, with trade-secret issues subject to competent review rather than automatic refusal.",
+    "limit": "The interpretive ruling does not establish eventual disclosure, a phone contract, or compensation; prior failed enforcement is separately relevant.",
+    "sources": [
+      {
+        "label": "Primary decision",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0203"
+      }
+    ],
+    "alternative_sector": "Mixed",
+    "restoration_note": "No source in this reviewed set establishes completed payment, delivered services, physical release, or institutional compliance after this decision.",
+    "cohort": "original",
+    "habeas_vehicle": null,
+    "system_group": "ck",
+    "included_by_default": true
+  }
+]

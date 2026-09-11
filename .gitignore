@@ -1,0 +1,10 @@
+data/raw/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+uploads/
+private/
+*.epub
+*.docx

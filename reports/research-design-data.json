@@ -1,0 +1,174 @@
+{
+  "status": "Research design, not empirical results or completed preregistration",
+  "power_assumptions": {
+    "baseline": 0.2,
+    "alpha_two_sided": 0.05,
+    "power": 0.8,
+    "attrition": 0.15,
+    "observed_per_office": 20,
+    "icc": 0.05,
+    "design_effect": 1.95,
+    "enrolled_per_office": 24
+  },
+  "scenarios": [
+    {
+      "effect_pp": 5,
+      "per_arm_evaluable": 1094,
+      "independent_enrollment": 2576,
+      "clustered_enrollment": 5136
+    },
+    {
+      "effect_pp": 10,
+      "per_arm_evaluable": 294,
+      "independent_enrollment": 692,
+      "clustered_enrollment": 1392
+    },
+    {
+      "effect_pp": 15,
+      "per_arm_evaluable": 138,
+      "independent_enrollment": 326,
+      "clustered_enrollment": 672
+    }
+  ],
+  "visualization_readiness": [
+    {
+      "rank": 1,
+      "view": "Evidence coverage",
+      "readiness": "Now"
+    },
+    {
+      "rank": 2,
+      "view": "Sector \u00d7 disposition",
+      "readiness": "Now"
+    },
+    {
+      "rank": 3,
+      "view": "Outcome stages",
+      "readiness": "Now"
+    },
+    {
+      "rank": 4,
+      "view": "Habeas routes",
+      "readiness": "Now"
+    },
+    {
+      "rank": 5,
+      "view": "Technology \u00d7 sector",
+      "readiness": "Now"
+    },
+    {
+      "rank": 6,
+      "view": "Topic heatmap",
+      "readiness": "Now"
+    },
+    {
+      "rank": 7,
+      "view": "Topic overlap",
+      "readiness": "Now"
+    },
+    {
+      "rank": 8,
+      "view": "Historical timeline",
+      "readiness": "Now"
+    },
+    {
+      "rank": 9,
+      "view": "Coding sensitivity",
+      "readiness": "Now"
+    },
+    {
+      "rank": 10,
+      "view": "Restoration evidence",
+      "readiness": "Now"
+    },
+    {
+      "rank": 11,
+      "view": "Causal assumptions",
+      "readiness": "Now"
+    },
+    {
+      "rank": 12,
+      "view": "Legal barriers",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 13,
+      "view": "Event-state trajectories",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 14,
+      "view": "Review funnel",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 15,
+      "view": "Time to relief",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 16,
+      "view": "Court-year comparisons",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 17,
+      "view": "Citation network",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 18,
+      "view": "Coder agreement",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 19,
+      "view": "Cluster stability",
+      "readiness": "Enrich"
+    },
+    {
+      "rank": 20,
+      "view": "Capacity \u00d7 delay",
+      "readiness": "Prospective"
+    },
+    {
+      "rank": 21,
+      "view": "Handoff latency",
+      "readiness": "Prospective"
+    },
+    {
+      "rank": 22,
+      "view": "Error confusion matrix",
+      "readiness": "Prospective"
+    },
+    {
+      "rank": 23,
+      "view": "Recurrence control chart",
+      "readiness": "Prospective"
+    },
+    {
+      "rank": 24,
+      "view": "Intervention effects",
+      "readiness": "Prospective"
+    },
+    {
+      "rank": 25,
+      "view": "Correction propagation",
+      "readiness": "Prospective"
+    }
+  ],
+  "testing_gates": [
+    "Explore existing atlas",
+    "Define independent population",
+    "Specify hypotheses and primary outcome",
+    "Freeze protocol and holdout",
+    "Collect to a fixed stopping rule",
+    "Estimate effects and uncertainty",
+    "Replicate and test transportability"
+  ],
+  "sources": [
+    "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+    "https://doi.org/10.1073/pnas.1708274114",
+    "https://miguelhernan.org/whatifbook"
+  ]
+}

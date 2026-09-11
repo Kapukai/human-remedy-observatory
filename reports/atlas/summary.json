@@ -1,0 +1,376 @@
+{
+  "title": "Selected historical litigation families: descriptive research atlas",
+  "research_cutoff": "2026-09-11",
+  "source_sha256": "0e7015f9ba08be324d074094e969430767dfd6e07db56b6b5e68053b4ac03048",
+  "unit": "litigation family; events within families are not independent",
+  "selection": "purposive historical selection, emphasizing consequential human challenges; not a representative sample",
+  "total_records": 63,
+  "default_included": 62,
+  "excluded_comparator_ids": [
+    "tj_hooper"
+  ],
+  "sector_counts": {
+    "Private": 13,
+    "Public": 44,
+    "Mixed": 5
+  },
+  "technology_counts": {
+    "Physical": 16,
+    "Administrative": 32,
+    "Computerized": 14
+  },
+  "direction_counts": {
+    "Favorable": 38,
+    "Mixed": 12,
+    "Adverse": 12
+  },
+  "stage_counts": {
+    "Damages judgment": 7,
+    "Merits or injunction": 14,
+    "Mixed disposition": 12,
+    "Adverse": 12,
+    "Procedural or interim": 15,
+    "Settlement": 2
+  },
+  "implementation_counts": {
+    "Not established in sources": 57,
+    "Documented some restoration": 5
+  },
+  "topic_counts": {
+    "Authority and rules": 27,
+    "Capacity and delay": 3,
+    "Classification": 24,
+    "Design and components": 12,
+    "Evidence and data": 44,
+    "Incentives and independence": 5,
+    "Notice and hearing": 28,
+    "Remedy access": 53
+  },
+  "topic_by_sector": {
+    "Authority and rules": {
+      "Public": 20,
+      "Private": 4,
+      "Mixed": 3
+    },
+    "Capacity and delay": {
+      "Public": 3,
+      "Private": 0,
+      "Mixed": 0
+    },
+    "Classification": {
+      "Public": 17,
+      "Private": 5,
+      "Mixed": 2
+    },
+    "Design and components": {
+      "Public": 3,
+      "Private": 8,
+      "Mixed": 1
+    },
+    "Evidence and data": {
+      "Public": 32,
+      "Private": 9,
+      "Mixed": 3
+    },
+    "Incentives and independence": {
+      "Public": 4,
+      "Private": 1,
+      "Mixed": 0
+    },
+    "Notice and hearing": {
+      "Public": 24,
+      "Private": 1,
+      "Mixed": 3
+    },
+    "Remedy access": {
+      "Public": 36,
+      "Private": 12,
+      "Mixed": 5
+    }
+  },
+  "tables": {
+    "sector_by_stage": {
+      "Public": {
+        "Damages judgment": 0,
+        "Merits or injunction": 13,
+        "Procedural or interim": 10,
+        "Settlement": 2,
+        "Mixed disposition": 9,
+        "Adverse": 10
+      },
+      "Private": {
+        "Damages judgment": 7,
+        "Merits or injunction": 0,
+        "Procedural or interim": 4,
+        "Settlement": 0,
+        "Mixed disposition": 1,
+        "Adverse": 1
+      },
+      "Mixed": {
+        "Damages judgment": 0,
+        "Merits or injunction": 1,
+        "Procedural or interim": 1,
+        "Settlement": 0,
+        "Mixed disposition": 2,
+        "Adverse": 1
+      }
+    },
+    "sector_by_technology": {
+      "Public": {
+        "Physical": 6,
+        "Administrative": 30,
+        "Computerized": 8
+      },
+      "Private": {
+        "Physical": 9,
+        "Administrative": 0,
+        "Computerized": 4
+      },
+      "Mixed": {
+        "Physical": 1,
+        "Administrative": 2,
+        "Computerized": 2
+      }
+    },
+    "sector_by_direction": {
+      "Public": {
+        "Favorable": 25,
+        "Mixed": 9,
+        "Adverse": 10
+      },
+      "Private": {
+        "Favorable": 11,
+        "Mixed": 1,
+        "Adverse": 1
+      },
+      "Mixed": {
+        "Favorable": 2,
+        "Mixed": 2,
+        "Adverse": 1
+      }
+    },
+    "sector_by_implementation": {
+      "Public": {
+        "Documented some restoration": 4,
+        "Not established in sources": 40
+      },
+      "Private": {
+        "Documented some restoration": 0,
+        "Not established in sources": 13
+      },
+      "Mixed": {
+        "Documented some restoration": 1,
+        "Not established in sources": 4
+      }
+    }
+  },
+  "descriptive_cramers_v": {
+    "sector_by_stage": 0.5283980937272063,
+    "sector_by_technology": 0.4279106419365117,
+    "sector_by_direction": 0.19843463286694782
+  },
+  "cramers_v_interpretation": "Uncorrected association strength among these selected coded families only; no p-value, population claim, or causal interpretation. Sensitive to coding, sparse cells, and corpus selection.",
+  "alternative_sector_sensitivity": {
+    "interpretation": "All specified alternative sector assignments applied together; an analyst scenario, not a confidence interval or exhaustive uncertainty bound.",
+    "changed_families": [
+      {
+        "id": "fuentes",
+        "from": "Mixed",
+        "to": "Public"
+      },
+      {
+        "id": "boyle",
+        "from": "Mixed",
+        "to": "Private"
+      },
+      {
+        "id": "west",
+        "from": "Mixed",
+        "to": "Public"
+      },
+      {
+        "id": "loomis",
+        "from": "Public",
+        "to": "Mixed"
+      },
+      {
+        "id": "houston",
+        "from": "Public",
+        "to": "Mixed"
+      },
+      {
+        "id": "cahoo",
+        "from": "Mixed",
+        "to": "Public"
+      },
+      {
+        "id": "hamilton",
+        "from": "Mixed",
+        "to": "Public"
+      },
+      {
+        "id": "ck",
+        "from": "Private",
+        "to": "Mixed"
+      }
+    ],
+    "tables": {
+      "sector_by_stage": {
+        "all_alternatives_together": {
+          "Public": {
+            "Damages judgment": 0,
+            "Merits or injunction": 14,
+            "Procedural or interim": 11,
+            "Settlement": 2,
+            "Mixed disposition": 9,
+            "Adverse": 10
+          },
+          "Private": {
+            "Damages judgment": 7,
+            "Merits or injunction": 0,
+            "Procedural or interim": 3,
+            "Settlement": 0,
+            "Mixed disposition": 2,
+            "Adverse": 1
+          },
+          "Mixed": {
+            "Damages judgment": 0,
+            "Merits or injunction": 0,
+            "Procedural or interim": 1,
+            "Settlement": 0,
+            "Mixed disposition": 1,
+            "Adverse": 1
+          }
+        },
+        "descriptive_cramers_v": 0.5222697583462896
+      },
+      "sector_by_technology": {
+        "all_alternatives_together": {
+          "Public": {
+            "Physical": 6,
+            "Administrative": 32,
+            "Computerized": 8
+          },
+          "Private": {
+            "Physical": 10,
+            "Administrative": 0,
+            "Computerized": 3
+          },
+          "Mixed": {
+            "Physical": 0,
+            "Administrative": 0,
+            "Computerized": 3
+          }
+        },
+        "descriptive_cramers_v": 0.5424249228623149
+      },
+      "sector_by_direction": {
+        "all_alternatives_together": {
+          "Public": {
+            "Favorable": 27,
+            "Mixed": 9,
+            "Adverse": 10
+          },
+          "Private": {
+            "Favorable": 10,
+            "Mixed": 2,
+            "Adverse": 1
+          },
+          "Mixed": {
+            "Favorable": 1,
+            "Mixed": 1,
+            "Adverse": 1
+          }
+        },
+        "descriptive_cramers_v": 0.14790963943150565
+      },
+      "sector_by_implementation": {
+        "all_alternatives_together": {
+          "Public": {
+            "Documented some restoration": 5,
+            "Not established in sources": 41
+          },
+          "Private": {
+            "Documented some restoration": 0,
+            "Not established in sources": 13
+          },
+          "Mixed": {
+            "Documented some restoration": 0,
+            "Not established in sources": 3
+          }
+        },
+        "descriptive_cramers_v": null
+      }
+    }
+  },
+  "jaccard_interpretation": "Overlap of positive topic annotations, not verified feature prevalence. Untagged does not establish absence. No validated natural clusters are claimed.",
+  "implementation_interpretation": "Restoration evidence reported at any stage can include predecision release or judicial quashing. It does not establish complete remedy, compliance with the selected decision, or an effect caused by that decision. Not established in sources means unverified in this research, not failed or absent implementation.",
+  "money_policy": "No monetary totals or cross-case aggregation; judgments, settlements, and payments differ.",
+  "habeas_and_data_fields": {
+    "habeas_vehicle": {
+      "None": 43,
+      "State habeas petitions challenging imprisonment under discriminatory municipal licensing; US Supreme Court review.": 1,
+      "Federal habeas challenging immigration custody under deportation warrants.": 1,
+      "Motion for leave to file an original habeas petition in the US Supreme Court, following unsuccessful federal habeas proceedings.": 1,
+      "Original state habeas petition in the Kansas Supreme Court; US Supreme Court review of its denial.": 1,
+      "Federal habeas challenging detention under a deportation warrant.": 1,
+      "State habeas among several writ applications, reviewed by Supreme Court certiorari.": 1,
+      "Federal habeas testing exclusion without a hearing after detention at Ellis Island.": 1,
+      "Federal habeas challenging denial of discretionary suspension of deportation.": 1,
+      "Federal habeas petition challenging a state conviction, before AEDPA.": 2,
+      "Federal habeas petition challenging a state no-contest plea.": 1,
+      "Second federal habeas petition challenging a state capital conviction.": 1,
+      "Federal habeas petition challenging a state capital conviction, before AEDPA.": 1,
+      "Federal habeas under 28 U.S.C. §2241 challenging executive military detention.": 1,
+      "Federal habeas petition; actual-innocence gateway through state procedural default.": 1,
+      "Federal habeas challenges to Guantánamo detention and constitutional adequacy of the substitute review process.": 1,
+      "Federal §2254 habeas petition challenging a state rape conviction.": 1,
+      "Federal §2254 habeas petition; proposed innocence gateway through §2244(d) limitations.": 1,
+      "Federal §2254 habeas petition; Third Circuit appeal from conditional relief.": 1
+    },
+    "data_failure": {
+      "Not coded": 46,
+      "Disputed status classification supported by evidence requiring judicial determination; no established digital corruption.": 1,
+      "Alleged knowing use of perjury and suppression of evidence contradicting it.": 1,
+      "Alleged coerced perjury and deliberate suppression of favorable testimony.": 1,
+      "Established improper admission of unsigned, unsworn statements and overbroad affiliation classification.": 1,
+      "Actual failed electrical/mechanical execution, not corrupted conviction evidence.": 1,
+      "Inaccessible security information and unavailable adversarial testing; falsity not adjudicated.": 1,
+      "Alleged executive list or program displaced independent judgment; causal influence not proven to Court's satisfaction.": 1,
+      "Confession after administration of drugs; disputed voluntariness and inadequate development of drug-related facts.": 1,
+      "Paint stains were presented as human blood matching the victim’s blood type.": 1,
+      "Alleged incomplete or inaccurate interpretation of the offense’s mental-state element and meaning of the plea.": 1,
+      "Later affidavits asserted that the prisoner’s deceased brother committed the murders.": 1,
+      "Suppressed eyewitness statements, inconsistent informant accounts, and other favorable evidence.": 1,
+      "DNA excluded House as the semen source; blood handling and contamination evidence undermined the prosecution’s forensic narrative.": 1,
+      "DNA testimony conflated random-match probability with source probability; sibling-match probabilities were disputed.": 1,
+      "Later affidavits identified a different killer; reliability and unexplained delay were contested.": 1,
+      "Discredited arson theories and gas-chromatography interpretations underpinned the conviction; retesting undermined their reliability.": 1
+    },
+    "holding_scope": {
+      "Not coded": 46,
+      "Judicial testing of citizenship supporting a challenge to executive deportation authority.": 1,
+      "Procedural refusal; favorable legal principle did not itself deliver relief.": 1,
+      "Opportunity to prove the claim, not a Supreme Court release order.": 1,
+      "Invalid detention order; consequential hearing and statutory defects.": 1,
+      "Accidental unsuccessful execution did not bar a subsequent attempt on the record presented.": 1,
+      "Historical initial-entry and emergency exclusion regime, not a rule for every detainee.": 1,
+      "Latest cited 1955 disposition was adverse. The earlier 1954 decision supplied an opportunity to prove prohibited interference, which was not established under the controlling later findings.": 1,
+      "Historical hearing victory, not adjudicated innocence or release.": 1,
+      "Constitutional merits victory against knowing false evidence.": 1,
+      "Adverse hearing-access decision; not a final adjudication that the translation allegation was true.": 1,
+      "Relief denied; the Court assumed rather than resolved a hypothetical exceptionally strong freestanding innocence claim.": 1,
+      "Merits victory under Brady materiality; prosecution responsibility reaches favorable evidence known to police acting for the government.": 1,
+      "Review-access victory; no freestanding innocence relief or release ordered in this opinion.": 1,
+      "Adverse ruling on the reviewed theories, not final rejection of every habeas ground.": 1,
+      "Favorable gateway doctrine with a mixed individual disposition.": 1,
+      "Actual grant of habeas relief, based on trial unfairness rather than a freestanding innocence claim. The filing discussion applies clerk obligations to automated systems; it preserved the state’s appeal, then the court affirmed relief for Lee.": 1
+    },
+    "actual_computer_fault": {
+      "Not coded": 46,
+      "false": 16
+    }
+  },
+  "source_file": "data/curated/cases.json",
+  "source_integrity_note": "Hash identifies the exact shipped input. Original calculations used the same 63 case records before export added the derived included_by_default field; that field addition does not change counts or statistics."
+}

@@ -1,0 +1,25 @@
+{
+  "analysis_type": "Exploratory descriptive source coverage; not a hypothesis test",
+  "source_case_count": 29270,
+  "unique_case_count": 29270,
+  "legacy_count": 19861,
+  "modern_count": 9409,
+  "terms": [
+    1791,
+    2025
+  ],
+  "habeas_issue_10020_count": 379,
+  "habeas_issue_90040_count": 10,
+  "outcome_fields_analyzed": [],
+  "confidence_intervals": null,
+  "p_values": null,
+  "causal_effects": null,
+  "limitations": [
+    "Counts describe the frozen SCDB releases, not all U.S. petitions or all system failures.",
+    "Issue flags locate candidates, not all cases procedurally arising on habeas.",
+    "Legacy and modern coding and Court jurisdiction differ; historical counts are not failure rates.",
+    "Blank optional fields can be valid not-applicable entries; blanks are not findings of error.",
+    "Exact file counts need no sampling interval. Coding and selection uncertainty are not eliminated.",
+    "No private-versus-public outcome comparison or causal effect has been computed."
+  ]
+}

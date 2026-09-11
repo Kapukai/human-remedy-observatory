@@ -1,0 +1,65 @@
+topic_a,topic_b,both_tagged,either_tagged,jaccard_annotation_overlap
+Authority and rules,Authority and rules,27,27,1.0
+Authority and rules,Capacity and delay,1,29,0.034482758620689655
+Authority and rules,Classification,12,39,0.3076923076923077
+Authority and rules,Design and components,5,34,0.14705882352941177
+Authority and rules,Evidence and data,12,59,0.2033898305084746
+Authority and rules,Incentives and independence,4,28,0.14285714285714285
+Authority and rules,Notice and hearing,11,44,0.25
+Authority and rules,Remedy access,20,60,0.3333333333333333
+Capacity and delay,Authority and rules,1,29,0.034482758620689655
+Capacity and delay,Capacity and delay,3,3,1.0
+Capacity and delay,Classification,0,27,0.0
+Capacity and delay,Design and components,1,14,0.07142857142857142
+Capacity and delay,Evidence and data,1,46,0.021739130434782608
+Capacity and delay,Incentives and independence,0,8,0.0
+Capacity and delay,Notice and hearing,2,29,0.06896551724137931
+Capacity and delay,Remedy access,3,53,0.05660377358490566
+Classification,Authority and rules,12,39,0.3076923076923077
+Classification,Capacity and delay,0,27,0.0
+Classification,Classification,24,24,1.0
+Classification,Design and components,1,35,0.02857142857142857
+Classification,Evidence and data,18,50,0.36
+Classification,Incentives and independence,1,28,0.03571428571428571
+Classification,Notice and hearing,14,38,0.3684210526315789
+Classification,Remedy access,19,58,0.3275862068965517
+Design and components,Authority and rules,5,34,0.14705882352941177
+Design and components,Capacity and delay,1,14,0.07142857142857142
+Design and components,Classification,1,35,0.02857142857142857
+Design and components,Design and components,12,12,1.0
+Design and components,Evidence and data,4,52,0.07692307692307693
+Design and components,Incentives and independence,1,16,0.0625
+Design and components,Notice and hearing,0,40,0.0
+Design and components,Remedy access,11,54,0.2037037037037037
+Evidence and data,Authority and rules,12,59,0.2033898305084746
+Evidence and data,Capacity and delay,1,46,0.021739130434782608
+Evidence and data,Classification,18,50,0.36
+Evidence and data,Design and components,4,52,0.07692307692307693
+Evidence and data,Evidence and data,44,44,1.0
+Evidence and data,Incentives and independence,2,47,0.0425531914893617
+Evidence and data,Notice and hearing,23,49,0.46938775510204084
+Evidence and data,Remedy access,39,58,0.6724137931034483
+Incentives and independence,Authority and rules,4,28,0.14285714285714285
+Incentives and independence,Capacity and delay,0,8,0.0
+Incentives and independence,Classification,1,28,0.03571428571428571
+Incentives and independence,Design and components,1,16,0.0625
+Incentives and independence,Evidence and data,2,47,0.0425531914893617
+Incentives and independence,Incentives and independence,5,5,1.0
+Incentives and independence,Notice and hearing,2,31,0.06451612903225806
+Incentives and independence,Remedy access,1,57,0.017543859649122806
+Notice and hearing,Authority and rules,11,44,0.25
+Notice and hearing,Capacity and delay,2,29,0.06896551724137931
+Notice and hearing,Classification,14,38,0.3684210526315789
+Notice and hearing,Design and components,0,40,0.0
+Notice and hearing,Evidence and data,23,49,0.46938775510204084
+Notice and hearing,Incentives and independence,2,31,0.06451612903225806
+Notice and hearing,Notice and hearing,28,28,1.0
+Notice and hearing,Remedy access,21,60,0.35
+Remedy access,Authority and rules,20,60,0.3333333333333333
+Remedy access,Capacity and delay,3,53,0.05660377358490566
+Remedy access,Classification,19,58,0.3275862068965517
+Remedy access,Design and components,11,54,0.2037037037037037
+Remedy access,Evidence and data,39,58,0.6724137931034483
+Remedy access,Incentives and independence,1,57,0.017543859649122806
+Remedy access,Notice and hearing,21,60,0.35
+Remedy access,Remedy access,53,53,1.0

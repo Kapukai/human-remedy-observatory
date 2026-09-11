@@ -1,0 +1,31 @@
+issue_area_code,issue_area,period,case_count
+1,Criminal procedure,Legacy,1096
+1,Criminal procedure,Modern,2123
+10,Federalism,Legacy,483
+10,Federalism,Modern,420
+11,Interstate relations,Legacy,169
+11,Interstate relations,Modern,105
+12,Federal taxation,Legacy,1173
+12,Federal taxation,Modern,320
+13,Miscellaneous,Legacy,87
+13,Miscellaneous,Modern,32
+14,Private action,Legacy,3328
+14,Private action,Modern,7
+2,Civil rights,Legacy,1236
+2,Civil rights,Modern,1525
+3,First Amendment,Legacy,117
+3,First Amendment,Modern,710
+4,Due process,Legacy,782
+4,Due process,Modern,363
+5,Privacy,Legacy,19
+5,Privacy,Modern,122
+6,Attorneys,Legacy,231
+6,Attorneys,Modern,104
+7,Unions,Legacy,167
+7,Unions,Modern,373
+8,Economic activity,Legacy,6614
+8,Economic activity,Modern,1851
+9,Judicial power,Legacy,4303
+9,Judicial power,Modern,1287
+,Missing/other,Legacy,56
+,Missing/other,Modern,67
