@@ -42,7 +42,26 @@ The larger corpus is a separate research resource. It is not a representative sa
 
 ### Dashboards and figures
 
-Download this repository and open [case-patterns.html](dashboard/case-patterns.html) or [research-design.html](dashboard/research-design.html) in your browser to use the interactive dashboards. GitHub's file viewer displays their source; it does not run the dashboards. Internet access is needed for the pinned D3 chart library.
+The **local research workbench** combines the case atlas, relationship views, larger-corpus coverage, and research-to-legislation plan. It runs with Python 3 and a browser; no package installation, account, or API key is required. Its charts have no external library or network dependencies.
+
+From a downloaded or cloned repository, run:
+
+```bash
+python3 scripts/check_data.py
+python3 scripts/serve_workbench.py
+```
+
+The browser opens at `http://127.0.0.1:8765/`. Keep the terminal running; press Control-C to stop. GitHub's file viewer displays source code and does not run the app. The default view includes **57 US families**; select all jurisdictions to view all **62 human-centered families**. The organization comparator is separately optional.
+
+- [Terminal workflow](docs/TERMINAL_WORKFLOW.md) — first setup, updates, troubleshooting, and a safe status report to share.
+- [Critical path and work packages](docs/CRITICAL_PATH.md) — M0–M6 with explicit acceptance gates.
+- [25-view dashboard registry](data/research/dashboard-registry.json) — 10 exploratory views, one design-only view, and 14 requiring further measurements. Four additional plots describe the separate SCDB corpus.
+- [Legislative tests and discussion draft](docs/LEGISLATIVE_TESTS.md) — proposed, untested controls with sources, metrics, and safeguards.
+- [Evidence-event schema](schemas/research-events.schema.json) · [Blank event template](templates/evidence-event.csv) · [Unregistered hypothesis template](templates/hypothesis-plan.json).
+
+The workbench is a local research snapshot, not a live court feed. Filters and exports preserve the selected denominator. Missing event histories, independent coding, operational measurements, and evaluation cohorts are explicit research dependencies.
+
+The original standalone [case-patterns.html](dashboard/case-patterns.html) and [research-design.html](dashboard/research-design.html) remain available. Those older exports require internet access for their pinned D3 chart library.
 
 ![Selected case patterns](reports/atlas/case-patterns.png)
 

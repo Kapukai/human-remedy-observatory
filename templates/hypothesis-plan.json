@@ -1,0 +1,106 @@
+{
+  "$comment": "Unfilled planning template. Null values are intentional. Completing this file does not constitute preregistration; a verifiable registration or timestamp must precede access to evaluation outcomes.",
+  "schema_version": "1.0.0",
+  "protocol_id": null,
+  "title": null,
+  "status": "draft-unregistered",
+  "version": null,
+  "registration": {
+    "url": null,
+    "registered_at": null,
+    "registered_version": null,
+    "evaluation_outcomes_opened_at": null,
+    "prior_data_access_disclosed": [],
+    "prior_knowledge_disclosed": []
+  },
+  "research_question": null,
+  "h0": null,
+  "h1": null,
+  "expected_direction": null,
+  "design": {
+    "type": null,
+    "target_population": null,
+    "jurisdictions": [],
+    "legal_routes": [],
+    "eligibility_rule": null,
+    "exclusion_rules": [],
+    "unit_of_assignment": null,
+    "unit_of_analysis": null,
+    "connected_family_system_handling": null,
+    "time_zero": null,
+    "follow_up_window": null,
+    "intervention": null,
+    "comparator": null,
+    "required_safeguards_in_all_arms": null,
+    "causal_identification_assumptions": [],
+    "spillover_and_interference_plan": null
+  },
+  "outcomes": {
+    "primary": [],
+    "secondary": [],
+    "definitions_and_source_requirements": null,
+    "order_vs_verified_correction_rule": null,
+    "independent_adjudication": null,
+    "reviewer_blinding": null,
+    "adverse_events": []
+  },
+  "data": {
+    "discovery_dataset_versions": [],
+    "evaluation_dataset_definition": null,
+    "split_rule_and_seed": null,
+    "connected_group_holdout_rule": null,
+    "evaluation_access_control": null,
+    "source_rights_review": null,
+    "privacy_plan": null,
+    "missingness_and_censoring_rules": null,
+    "duplicate_and_linkage_rules": null
+  },
+  "estimand": {
+    "name": null,
+    "contrast": null,
+    "effect_scale": null,
+    "minimum_practically_important_effect": null
+  },
+  "analysis": {
+    "primary_model": null,
+    "covariates_prespecified": [],
+    "cluster_handling": null,
+    "interval_method": null,
+    "alpha": null,
+    "multiplicity_plan": null,
+    "sensitivity_analyses": [],
+    "model_assumption_checks": [],
+    "software_versions": []
+  },
+  "sample_size": {
+    "baseline_assumption": null,
+    "target_power": null,
+    "effect_assumption": null,
+    "independent_units_required": null,
+    "cluster_size_assumption": null,
+    "intraclass_correlation_assumption": null,
+    "attrition_assumption": null,
+    "simulation_or_formula_reference": null
+  },
+  "stopping": {
+    "fixed_target_or_sequential_design": null,
+    "boundaries_if_sequential": null,
+    "safety_monitoring_rule": null,
+    "no_optional_stopping_for_significance": true
+  },
+  "quality": {
+    "double_coding_sampling_plan": null,
+    "field_specific_agreement_criteria": [],
+    "disagreement_adjudication": null,
+    "source_verification": null
+  },
+  "reporting": {
+    "publish_null_results": true,
+    "publish_protocol_deviations": true,
+    "publish_effects_and_uncertainty": true,
+    "publish_selection_and_missingness": true,
+    "prohibit_unidentified_causal_claims": true,
+    "replication_plan": null
+  },
+  "amendments": []
+}

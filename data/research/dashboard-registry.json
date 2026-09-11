@@ -1,0 +1,500 @@
+[
+  {
+    "id": "V01",
+    "rank": 1,
+    "title": "Evidence-coverage matrix",
+    "question": "What is actually known, disputed, or missing?",
+    "status": "available",
+    "view": "atlas",
+    "required_fields": [
+      "id",
+      "sources",
+      "limit",
+      "implementation",
+      "restoration_note"
+    ],
+    "unit": "litigation family",
+    "limitations": [
+      "Field presence is not source completeness; unknown is not failure."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V02",
+    "rank": 2,
+    "title": "Sector–disposition heatmap",
+    "question": "How do selected dispositions differ by challenged operator?",
+    "status": "available",
+    "view": "atlas",
+    "required_fields": [
+      "id",
+      "sector",
+      "direction",
+      "included_by_default"
+    ],
+    "unit": "litigation family",
+    "limitations": [
+      "Selected composition is not a population probability; sector is analytical coding."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V03",
+    "rank": 3,
+    "title": "Outcome-stage matrix",
+    "question": "What kind of favorable or adverse result is documented?",
+    "status": "available",
+    "view": "atlas",
+    "required_fields": [
+      "id",
+      "direction",
+      "stage",
+      "implementation"
+    ],
+    "unit": "litigation family",
+    "limitations": [
+      "One summary compresses event history; an order is not proof of restoration."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V04",
+    "rank": 4,
+    "title": "Habeas route map",
+    "question": "Which legal review mechanism applied?",
+    "status": "available",
+    "view": "atlas",
+    "required_fields": [
+      "id",
+      "habeas_vehicle",
+      "direction",
+      "sources"
+    ],
+    "unit": "litigation family",
+    "limitations": [
+      "Similar harms may involve different legal routes; missing vehicle is not evidence of no habeas proceeding."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V05",
+    "rank": 5,
+    "title": "Technology–sector chart",
+    "question": "Which technologies occur in which selected sectors?",
+    "status": "available",
+    "view": "relationships",
+    "required_fields": [
+      "id",
+      "technology",
+      "sector"
+    ],
+    "unit": "litigation family",
+    "limitations": [
+      "Broad technology categories overlap in reality; ownership does not decide state action."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V06",
+    "rank": 6,
+    "title": "Topic heatmap",
+    "question": "Which challenged mechanisms are repeatedly annotated?",
+    "status": "available",
+    "view": "relationships",
+    "required_fields": [
+      "id",
+      "tags",
+      "sector"
+    ],
+    "unit": "litigation family",
+    "limitations": [
+      "Tags denote selected challenged topics, not judicially established defects; untagged does not prove absence."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V07",
+    "rank": 7,
+    "title": "Topic overlap and case-neighbor explorer",
+    "question": "Which topics co-occur, and which selected families share annotations?",
+    "status": "available",
+    "view": "relationships",
+    "required_fields": [
+      "id",
+      "tags"
+    ],
+    "unit": "topic pair or selected litigation-family pair",
+    "limitations": [
+      "Annotation overlap is similarity, not a causal relationship; tagging choices determine the distance."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V08",
+    "rank": 8,
+    "title": "Source-linked timeline",
+    "question": "When were the selected legal anchors decided?",
+    "status": "available",
+    "view": "relationships",
+    "required_fields": [
+      "id",
+      "year",
+      "last_year",
+      "sources"
+    ],
+    "unit": "litigation family anchor year",
+    "limitations": [
+      "Historical coverage is not filing incidence or litigation duration."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V09",
+    "rank": 9,
+    "title": "Coding-sensitivity plot",
+    "question": "Does alternative sector coding change descriptive association?",
+    "status": "available",
+    "view": "relationships",
+    "required_fields": [
+      "id",
+      "sector",
+      "alternative_sector",
+      "technology",
+      "stage",
+      "direction"
+    ],
+    "unit": "coding scenario",
+    "limitations": [
+      "Scenarios are not confidence intervals; retain the same underlying families for each comparison."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V10",
+    "rank": 10,
+    "title": "Restoration-evidence chart",
+    "question": "Is actual correction reported in the reviewed sources?",
+    "status": "available",
+    "view": "atlas",
+    "required_fields": [
+      "id",
+      "implementation",
+      "restoration_note",
+      "sources"
+    ],
+    "unit": "litigation family",
+    "limitations": [
+      "Any-stage release or repayment may precede the selected judgment; missing follow-up is not failed remedy."
+    ],
+    "work_package": "WP01"
+  },
+  {
+    "id": "V11",
+    "rank": 11,
+    "title": "Causal assumption diagram",
+    "question": "What selection, confounding, and mediating relationships need measurement?",
+    "status": "design-only",
+    "view": "relationships",
+    "required_fields": [
+      "proposed_variables",
+      "proposed_edges",
+      "identification_assumptions"
+    ],
+    "unit": "assumed variable relationship",
+    "limitations": [
+      "Arrows are design assumptions, not empirically fitted causal effects."
+    ],
+    "work_package": "WP05"
+  },
+  {
+    "id": "V12",
+    "rank": 12,
+    "title": "Legal-barrier map",
+    "question": "Where do jurisdiction, standing, immunity, procedure, or merits block particular claims?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "claim_id",
+      "barrier_type",
+      "holding_status",
+      "source_locator",
+      "event_id"
+    ],
+    "unit": "claim",
+    "limitations": [
+      "Needs claim-level holdings and source passages; analyst interpretation must remain separate."
+    ],
+    "work_package": "WP02"
+  },
+  {
+    "id": "V13",
+    "rank": 13,
+    "title": "Event-state swimlanes",
+    "question": "How did orders, appeals, stays, and completed remedies change over time?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "event_id",
+      "family_ids",
+      "event_type",
+      "occurrence",
+      "sources",
+      "supersedes_event_ids"
+    ],
+    "unit": "dated event",
+    "limitations": [
+      "Requires dated event coding; a later reversal must not overwrite the earlier event."
+    ],
+    "work_package": "WP02"
+  },
+  {
+    "id": "V14",
+    "rank": 14,
+    "title": "Review funnel",
+    "question": "Where do eligible matters leave or branch through the review process?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "cohort_id",
+      "eligibility",
+      "filing_event",
+      "review_event",
+      "remedy_event",
+      "follow_up_status"
+    ],
+    "unit": "eligible cohort member",
+    "limitations": [
+      "Requires unselected denominators and competing or branching paths; filed cases do not represent all harmed people."
+    ],
+    "work_package": "WP04"
+  },
+  {
+    "id": "V15",
+    "rank": 15,
+    "title": "Cumulative-incidence curves",
+    "question": "How long until correction with competing outcomes considered?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "cohort_id",
+      "time_zero",
+      "event_time",
+      "event_type",
+      "censoring_time",
+      "follow_up_status"
+    ],
+    "unit": "eligible case with follow-up",
+    "limitations": [
+      "Requires competing-event definitions and censoring assumptions; missing outcome is not a non-event."
+    ],
+    "work_package": "WP04"
+  },
+  {
+    "id": "V16",
+    "rank": 16,
+    "title": "Court-year small multiples",
+    "question": "Do comparable outcomes differ across contexts?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "cohort_id",
+      "court_id",
+      "filing_year",
+      "legal_route",
+      "case_mix",
+      "standardized_outcome"
+    ],
+    "unit": "cohort stratum",
+    "limitations": [
+      "Requires compatible definitions and case mix; avoid naive court rankings."
+    ],
+    "work_package": "WP04"
+  },
+  {
+    "id": "V17",
+    "rank": 17,
+    "title": "Citation network",
+    "question": "How are public legal authorities connected in the corpus?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "opinion_id",
+      "cited_opinion_id",
+      "citation_locator",
+      "citation_context"
+    ],
+    "unit": "citation edge",
+    "limitations": [
+      "Citation is neither endorsement nor proven causal influence."
+    ],
+    "work_package": "WP02"
+  },
+  {
+    "id": "V18",
+    "rank": 18,
+    "title": "Reviewer-agreement matrix",
+    "question": "Can independent reviewers reproduce classifications?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "item_id",
+      "reviewer_id",
+      "blinding_status",
+      "independent_code",
+      "coding_version",
+      "adjudication"
+    ],
+    "unit": "independently double-coded item",
+    "limitations": [
+      "Agreement is not truth; report prevalence, overlap selection, and missingness."
+    ],
+    "work_package": "WP03"
+  },
+  {
+    "id": "V19",
+    "rank": 19,
+    "title": "Cluster-stability plots",
+    "question": "Do exploratory groupings persist under recoding and independent validation?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "family_id",
+      "feature_version",
+      "distance_definition",
+      "missingness_rule",
+      "discovery_split",
+      "validation_split"
+    ],
+    "unit": "litigation family or independent system",
+    "limitations": [
+      "Outcomes must not leak into predictor features; similarity alone does not establish a natural class or common cause."
+    ],
+    "work_package": "WP05"
+  },
+  {
+    "id": "V20",
+    "rank": 20,
+    "title": "Capacity–delay curve",
+    "question": "At what measured load do delay and error rates change?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "office_id",
+      "period",
+      "arrivals",
+      "service_completions",
+      "backlog",
+      "review_delay",
+      "case_complexity"
+    ],
+    "unit": "office-period",
+    "limitations": [
+      "Operational measurements are absent; task complexity and selection can confound load associations."
+    ],
+    "work_package": "WP06"
+  },
+  {
+    "id": "V21",
+    "rank": 21,
+    "title": "Latency decomposition",
+    "question": "Which handoff consumes the time before effective correction?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "process_id",
+      "event_type",
+      "occurrence",
+      "endpoint_id",
+      "clock_definition"
+    ],
+    "unit": "process event interval",
+    "limitations": [
+      "Timestamp definitions and clock synchronization must be comparable; acknowledgment differs from correction."
+    ],
+    "work_package": "WP06"
+  },
+  {
+    "id": "V22",
+    "rank": 22,
+    "title": "Error confusion matrix",
+    "question": "Which independently established errors are detected or missed?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "decision_id",
+      "reference_adjudication",
+      "reference_uncertainty",
+      "review_result",
+      "error_class"
+    ],
+    "unit": "independently adjudicated decision",
+    "limitations": [
+      "Reference labels have uncertainty; requires a defined error opportunity denominator."
+    ],
+    "work_package": "WP06"
+  },
+  {
+    "id": "V23",
+    "rank": 23,
+    "title": "Control charts",
+    "question": "Does recurrence depart from a stable operational baseline?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "office_id",
+      "period",
+      "eligible_decisions",
+      "recurrences",
+      "definition_version"
+    ],
+    "unit": "denominator-based period",
+    "limitations": [
+      "Requires stable definitions and enough repeated periods; autocorrelation and case-mix changes affect limits."
+    ],
+    "work_package": "WP06"
+  },
+  {
+    "id": "V24",
+    "rank": 24,
+    "title": "Intervention-effect forest plot",
+    "question": "Which tested interventions improve outcomes and with what uncertainty?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "study_id",
+      "protocol_id",
+      "assignment_unit",
+      "estimand",
+      "effect_estimate",
+      "interval",
+      "study_design"
+    ],
+    "unit": "prespecified study or stratum",
+    "limitations": [
+      "No intervention estimates yet; account for multiplicity, overlapping samples, clustering, and transportability."
+    ],
+    "work_package": "WP07"
+  },
+  {
+    "id": "V25",
+    "rank": 25,
+    "title": "Correction-propagation network",
+    "question": "Did each operative endpoint apply and verify the correction?",
+    "status": "needs-data",
+    "view": "research",
+    "required_fields": [
+      "correction_id",
+      "endpoint_id",
+      "source_endpoint",
+      "target_endpoint",
+      "acknowledged_at",
+      "verified_effective_at",
+      "recurrence"
+    ],
+    "unit": "correction-to-endpoint event",
+    "limitations": [
+      "Receiving a message does not establish that an operative record or action changed."
+    ],
+    "work_package": "WP06"
+  }
+]

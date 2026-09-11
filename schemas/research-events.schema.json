@@ -1,0 +1,746 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Kapukai/human-remedy-observatory/raw/main/schemas/research-events.schema.json",
+  "title": "Public evidence event metadata, version 1.0.0",
+  "description": "One append-only public research event record. This schema validates structure, not truth, privacy, independence, or admissibility. Publish only reviewed public-source summaries: no private dossiers, names in subject or reviewer identifiers, contact details, addresses, government identifiers, birth dates, or sealed information. Opaque subject IDs can still be linkable; normally leave subject_refs empty. Never infer a missing date or treat unknown as no event. Cross-record validation must check unique IDs, reference existence, increasing revisions, acyclic supersession, independent coder identities, and source support. An order is not evidence of implementation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "event_series_id",
+    "revision",
+    "record_action",
+    "supersedes_event_ids",
+    "recorded_at",
+    "family_ids",
+    "system_ids",
+    "subject_refs",
+    "event_type",
+    "occurrence",
+    "claims",
+    "sources",
+    "review",
+    "verification"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "event_id": {
+      "$ref": "#/$defs/eventId"
+    },
+    "event_series_id": {
+      "type": "string",
+      "pattern": "^series_[a-f0-9]{16,64}$",
+      "description": "Stable opaque identifier across corrections to the same recorded event."
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "record_action": {
+      "enum": [
+        "record",
+        "correction",
+        "retraction"
+      ]
+    },
+    "supersedes_event_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/eventId"
+      },
+      "uniqueItems": true,
+      "description": "References earlier records without modifying or deleting them. Retraction preserves the historical record but removes it from active factual counts."
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Actual metadata-entry timestamp; never substitute this for the event, source, or verification date."
+    },
+    "family_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/catalogId"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Many-to-many links to existing case-family catalog IDs; do not embed extra person information."
+    },
+    "system_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/catalogId"
+      },
+      "uniqueItems": true,
+      "description": "Many-to-many links to known operational systems. Empty means not coded or not established, not independent systems."
+    },
+    "subject_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^subj_[a-f0-9]{16,64}$"
+      },
+      "uniqueItems": true,
+      "description": "Optional opaque research subject links; use randomly generated IDs, never hashes of real identifiers. Default to an empty array. Do not publish the identity key."
+    },
+    "event_type": {
+      "enum": [
+        "filing",
+        "hearing",
+        "judgment",
+        "appeal",
+        "remand",
+        "stay_entered",
+        "stay_lifted",
+        "settlement_approved",
+        "release_ordered",
+        "release_reported",
+        "release_verified",
+        "payment_ordered",
+        "payment_reported",
+        "payment_verified",
+        "record_correction_ordered",
+        "record_correction_reported",
+        "record_correction_verified",
+        "retrial_ordered",
+        "conviction_vacated",
+        "claim_denied",
+        "correction_notice",
+        "other_public_procedural_event"
+      ],
+      "description": "Record separate linked events when a judgment orders relief and later evidence documents its implementation. A reported or verified event is not automatically attributable to a particular earlier order."
+    },
+    "occurrence": {
+      "$ref": "#/$defs/partialDate"
+    },
+    "related_event_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/eventId"
+      },
+      "uniqueItems": true,
+      "description": "Temporal or evidentiary links only; a link does not assert causation."
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "minItems": 1
+    },
+    "review": {
+      "$ref": "#/$defs/review"
+    },
+    "verification": {
+      "$ref": "#/$defs/verification"
+    },
+    "revision_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 1000,
+      "description": "Public-safe description of what changed and why; do not include private correspondence."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "record_action": {
+            "const": "record"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "revision": {
+            "const": 1
+          },
+          "supersedes_event_ids": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "revision": {
+            "minimum": 2
+          },
+          "supersedes_event_ids": {
+            "minItems": 1
+          },
+          "revision_reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "revision_reason"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "event_type": {
+            "enum": [
+              "release_verified",
+              "payment_verified",
+              "record_correction_verified"
+            ]
+          },
+          "record_action": {
+            "enum": [
+              "record",
+              "correction"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "verification": {
+            "properties": {
+              "status": {
+                "const": "verified_against_implementation_evidence"
+              }
+            }
+          },
+          "claims": {
+            "contains": {
+              "properties": {
+                "kind": {
+                  "const": "observed_implementation"
+                },
+                "status": {
+                  "const": "established"
+                }
+              },
+              "required": [
+                "kind",
+                "status"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "eventId": {
+      "type": "string",
+      "pattern": "^evt_[a-f0-9]{16,64}$"
+    },
+    "catalogId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{1,79}$",
+      "description": "Stable catalog reference, not a person's contact information or government identifier."
+    },
+    "sourceId": {
+      "type": "string",
+      "pattern": "^src_[a-f0-9]{16,64}$"
+    },
+    "claimId": {
+      "type": "string",
+      "pattern": "^claim_[a-f0-9]{16,64}$"
+    },
+    "reviewerId": {
+      "type": "string",
+      "pattern": "^coder_[a-f0-9]{16,64}$"
+    },
+    "nullableTimestamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time",
+      "description": "Actual recorded timestamp or null if unknown; do not reconstruct it from a later action."
+    },
+    "partialDate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "precision"
+      ],
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "timestamp",
+            "day",
+            "month",
+            "year",
+            "unknown"
+          ]
+        }
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "precision": {
+              "const": "timestamp"
+            },
+            "value": {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+            }
+          }
+        },
+        {
+          "properties": {
+            "precision": {
+              "const": "day"
+            },
+            "value": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+            }
+          }
+        },
+        {
+          "properties": {
+            "precision": {
+              "const": "month"
+            },
+            "value": {
+              "type": "string",
+              "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$"
+            }
+          }
+        },
+        {
+          "properties": {
+            "precision": {
+              "const": "year"
+            },
+            "value": {
+              "type": "string",
+              "pattern": "^[0-9]{4}$"
+            }
+          }
+        },
+        {
+          "properties": {
+            "precision": {
+              "const": "unknown"
+            },
+            "value": {
+              "type": "null"
+            }
+          }
+        }
+      ],
+      "description": "Source-supported event or publication date at its actual precision. Unknown is {value:null,precision:unknown}; do not manufacture midnight, a first-of-month date, or an exact day. Uncertain intervals require a later schema extension. Enable JSON Schema format assertions to additionally reject impossible calendar dates."
+    },
+    "evidenceStatus": {
+      "enum": [
+        "alleged",
+        "established",
+        "disputed",
+        "not_determined"
+      ],
+      "description": "Established means supported for the stated scope in the cited source, not independently proven universal truth."
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "kind",
+        "statement",
+        "status",
+        "source_ids"
+      ],
+      "properties": {
+        "claim_id": {
+          "$ref": "#/$defs/claimId"
+        },
+        "kind": {
+          "enum": [
+            "party_allegation",
+            "factual_finding",
+            "legal_holding",
+            "operative_order",
+            "observed_implementation",
+            "research_inference"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "description": "Minimal public-source summary with attribution and scope; omit unnecessary personal details. Do not describe inference as a judicial finding."
+        },
+        "status": {
+          "$ref": "#/$defs/evidenceStatus"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceId"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "classification_codes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]{1,79}$"
+          },
+          "uniqueItems": true,
+          "description": "References to a versioned classification vocabulary; empty or absent means unclassified, not failure-free."
+        },
+        "classification_vocabulary_version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "classification_codes"
+            ],
+            "properties": {
+              "classification_codes": {
+                "minItems": 1
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "classification_vocabulary_version"
+            ],
+            "properties": {
+              "classification_vocabulary_version": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "url",
+        "source_type",
+        "pinpoint",
+        "record_date",
+        "extracted_at",
+        "verified_at"
+      ],
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/sourceId"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://",
+          "description": "Public source only. Exclude URLs containing authentication tokens, private access links, or unnecessary personal identifiers."
+        },
+        "source_type": {
+          "enum": [
+            "judicial_opinion",
+            "court_order",
+            "public_docket",
+            "official_implementation_record",
+            "official_report",
+            "secondary_report",
+            "other_public_source"
+          ]
+        },
+        "pinpoint": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 500,
+          "description": "Page, paragraph, section, or public docket entry; null when unavailable, never invented."
+        },
+        "record_date": {
+          "$ref": "#/$defs/partialDate"
+        },
+        "extracted_at": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "verified_at": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "Optional hash of the exact publicly obtained source bytes; never a hash of a real subject identifier. A hash verifies byte identity, not factual truth."
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "coding_records",
+        "adjudication_refs"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unreviewed",
+            "single_coded",
+            "double_coded_agreement",
+            "double_coded_disagreement",
+            "adjudicated"
+          ]
+        },
+        "coding_records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "coder_id",
+              "coded_at",
+              "independence",
+              "blind_to_other_codes",
+              "coding_record_ref"
+            ],
+            "properties": {
+              "coder_id": {
+                "$ref": "#/$defs/reviewerId"
+              },
+              "coded_at": {
+                "$ref": "#/$defs/nullableTimestamp"
+              },
+              "independence": {
+                "enum": [
+                  "independent",
+                  "not_independent",
+                  "not_determined"
+                ]
+              },
+              "blind_to_other_codes": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Null means not established. Reviewing another coder's output is not blinded duplicate coding."
+              },
+              "coding_record_ref": {
+                "type": "string",
+                "pattern": "^coding_[a-f0-9]{16,64}$",
+                "description": "Opaque reference to the separately preserved classification record; retain disagreements before adjudication."
+              }
+            }
+          }
+        },
+        "adjudication_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^adj_[a-f0-9]{16,64}$"
+          },
+          "uniqueItems": true,
+          "description": "References to documented adjudication decisions; do not silently replace independent coding records."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unreviewed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "coding_records": {
+                "maxItems": 0
+              },
+              "adjudication_refs": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "single_coded"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "coding_records": {
+                "minItems": 1
+              },
+              "adjudication_refs": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "double_coded_agreement",
+                  "double_coded_disagreement",
+                  "adjudicated"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "coding_records": {
+                "minItems": 2,
+                "contains": {
+                  "properties": {
+                    "independence": {
+                      "const": "independent"
+                    },
+                    "blind_to_other_codes": {
+                      "const": true
+                    }
+                  },
+                  "required": [
+                    "independence",
+                    "blind_to_other_codes"
+                  ]
+                },
+                "minContains": 2
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "adjudicated"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "adjudication_refs": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ],
+      "description": "Schema counts coding records, not actual independent people. External validation must ensure distinct coders and documented independence. Multiple AI runs are not automatically independent human review."
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "verified_at",
+        "verifier_ref",
+        "source_ids",
+        "scope"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not_verified",
+            "reported_only",
+            "verified_against_implementation_evidence"
+          ]
+        },
+        "verified_at": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "verifier_ref": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/reviewerId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceId"
+          },
+          "uniqueItems": true
+        },
+        "scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 1500,
+          "description": "Specify the action and coverage actually evidenced. One corrected endpoint does not establish complete propagation; a judgment does not establish release or payment."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "verified_against_implementation_evidence"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "verified_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "verifier_ref": {
+                "$ref": "#/$defs/reviewerId"
+              },
+              "source_ids": {
+                "minItems": 1
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "H1",
+    "title": "Usable explanations",
+    "mechanism": "A person cannot effectively identify and challenge a consequential factual or rule-application error when the grounds, sources, or correction route are inaccessible. This is a research hypothesis, not a finding that every unexplained decision is wrong.",
+    "intervention": "Offer plain-language, source-linked explanations and accessible readback or translation assistance above legally required notice; preserve an equivalent non-digital route.",
+    "outcome": "Independently verified operative correction within 30 calendar days of the prespecified time zero among cases meeting independently defined correctable-error eligibility. Prespecify missing verification handling and report completeness separately.",
+    "expected_direction": "Increase timely verified correction (Delta > 0).",
+    "null_hypothesis": "H0: the intention-to-treat risk difference in verified correction by day 30 is zero.",
+    "alternative_hypothesis": "H1: the intention-to-treat risk difference in verified correction by day 30 differs from zero (two-sided).",
+    "unit": "Randomized eligible person or case; family-linked records analyzed together.",
+    "design": "Prospective randomized offer of additional explanation assistance; standard legally compliant notice remains in every arm. Fix error eligibility independently before assignment, primary outcome, time zero, sample size, stopping rule, and adjudication protocol before evaluation.",
+    "legislative_clause": "Proposed section 2(b): require understandable grounds, lawful source access, review route, and correspondence between human-readable and machine-readable notices; section 4 sets proposed maximum response periods.",
+    "guardrails": [
+      "Do not withhold existing notice, accommodations, representation, or review rights.",
+      "No personal records enter the public research repository.",
+      "A useful explanation is not itself proof of truth or completed correction.",
+      "Do not treat a subject's agreement during readback as a waiver or condition of service."
+    ],
+    "sources": [
+      {
+        "label": "5 U.S.C. 552a: access, amendment, and record quality",
+        "url": "https://www.law.cornell.edu/uscode/text/5/552a"
+      },
+      {
+        "label": "5 U.S.C. 555(e): notice and grounds for denial",
+        "url": "https://www.law.cornell.edu/uscode/text/5/555"
+      },
+      {
+        "label": "NIST AI RMF 1.0: measure and manage",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+      }
+    ],
+    "status": "Proposed; untested"
+  },
+  {
+    "id": "H2",
+    "title": "Source provenance and false corroboration",
+    "mechanism": "Several reports may repeat one original assertion and be mistaken for independent confirmation. The selected historical evidence motivates a test; it does not estimate this mechanism's population prevalence.",
+    "intervention": "Display origin identifiers, transformation history, contradictions, and common-source links; require an independent-source check before counting corroboration.",
+    "outcome": "False independent-corroboration judgments per eligible fixed-ground-truth task, with task difficulty and reference adjudication documented.",
+    "expected_direction": "Decrease false-corroboration errors (Delta < 0).",
+    "null_hypothesis": "H0: the intention-to-treat risk difference in false-corroboration error per task is zero.",
+    "alternative_hypothesis": "H1: the intention-to-treat risk difference in false-corroboration error per task differs from zero (two-sided).",
+    "unit": "Randomized reviewer; repeated tasks nested within reviewer.",
+    "design": "Start with randomized simulation using synthetic cases and predefined provenance truth. Balance task order and difficulty, account for within-reviewer dependence, and reserve independent evaluation tasks. Field effectiveness requires a separate study.",
+    "legislative_clause": "Proposed section 2(a): retain a versioned source and transformation manifest; identify common-origin reports. Section 3(a): test common-source repetition before deployment.",
+    "guardrails": [
+      "No synthetic error is inserted into a live consequential decision.",
+      "Source count is not source quality; do not suppress genuinely independent contrary evidence.",
+      "A checksum or digest does not verify the truth of an originating statement.",
+      "Simulation results cannot be represented as demonstrated field harm reduction."
+    ],
+    "sources": [
+      {
+        "label": "Kyles v. Whitley: cumulative consideration of suppressed evidence",
+        "url": "https://supreme.justia.com/cases/federal/us/514/419/"
+      },
+      {
+        "label": "NASA Systems Engineering Handbook: product verification",
+        "url": "https://www.nasa.gov/reference/5-3-product-verification/"
+      },
+      {
+        "label": "NIST AI RMF 1.0: measure and manage",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+      }
+    ],
+    "status": "Proposed; untested"
+  },
+  {
+    "id": "H3",
+    "title": "Review capacity and authority to correct",
+    "mechanism": "A detected error may remain operative when review capacity is saturated or the reviewer lacks a lawful path to alter the decision. This is a proposed operational mechanism, not a causal conclusion from case counts.",
+    "intervention": "Provide additional reviewer time, source access, and a clearly assigned official with lawful authority to correct or route the decision to the official or court that can act.",
+    "outcome": "Independently verified correction within a prespecified deadline; secondary measures include latency, error recurrence, accessibility, quality, and cost.",
+    "expected_direction": "Increase timely verified correction (Delta > 0).",
+    "null_hypothesis": "H0: the intention-to-treat risk difference in timely verified correction is zero.",
+    "alternative_hypothesis": "H1: the intention-to-treat risk difference in timely verified correction differs from zero (two-sided).",
+    "unit": "Randomized office; eligible cases nested within offices, with family links retained.",
+    "design": "Cluster-randomized additional capacity where lawful and feasible. Define the eligible cohort with independent ascertainment to avoid treatment-dependent error detection changing the denominator. Measure arrival rate, capacity, complexity, spillovers, and implementation fidelity; use design-aware intervals and power calculations.",
+    "legislative_clause": "Proposed section 3(b): assign adequate reviewer resources and lawful correction authority; section 4(a): require escalation of unresolved delays without resetting the original clock.",
+    "guardrails": [
+      "No arm receives less than legally required capacity or review protections.",
+      "An agency official may not disregard or override a court order.",
+      "Lower average delay cannot compensate for more erroneous outcomes.",
+      "Capacity formulas are approximations and do not certify mission capability or safety."
+    ],
+    "sources": [
+      {
+        "label": "5 U.S.C. 555(b): agency conclusion within a reasonable time",
+        "url": "https://www.law.cornell.edu/uscode/text/5/555"
+      },
+      {
+        "label": "5 U.S.C. 702: judicial review and limitations",
+        "url": "https://www.law.cornell.edu/uscode/text/5/702"
+      },
+      {
+        "label": "NASA Systems Engineering Handbook: product verification",
+        "url": "https://www.nasa.gov/reference/5-3-product-verification/"
+      }
+    ],
+    "status": "Proposed; untested"
+  },
+  {
+    "id": "H4",
+    "title": "Verified correction propagation",
+    "mechanism": "An approved correction may not reach every operative endpoint; superseded information may continue to trigger an adverse action. The historical atlas often lacks the follow-up needed to determine whether this occurred.",
+    "intervention": "Inventory relevant endpoints; send a versioned correction; obtain delivery receipts; independently verify operative state and monitor recurrence.",
+    "outcome": "Repeat adverse action based on the superseded information within 90 days after baseline correction among independently defined eligible corrected cases, with loss to follow-up reported.",
+    "expected_direction": "Decrease superseded-data recurrence (Delta < 0).",
+    "null_hypothesis": "H0: the intention-to-treat risk difference in 90-day superseded-data recurrence is zero.",
+    "alternative_hypothesis": "H1: the intention-to-treat risk difference in 90-day superseded-data recurrence differs from zero (two-sided).",
+    "unit": "Randomized office or connected network; corrected cases nested within cluster.",
+    "design": "Randomize additional endpoint verification for an independently defined baseline-corrected cohort. Specify endpoint inventory, operative-state evidence, time zero, spillover handling, competing outcomes, and follow-up before testing. Use cluster-aware analysis and retain unresolved endpoints explicitly.",
+    "legislative_clause": "Proposed section 4(b)-(c): distinguish receipt from verified operative correction, assign responsibility for unresolved endpoints, and report 90-day recurrence.",
+    "guardrails": [
+      "Preserve every existing correction and notification duty in all arms.",
+      "Unknown endpoint inventory is not complete coverage.",
+      "Do not erase lawful historical evidence; preserve superseded versions with access control and current-status labels.",
+      "Share corrections only with recipients entitled to receive them; publish aggregate research results.",
+      "A correction dependent on a court order requires authorized judicial action."
+    ],
+    "sources": [
+      {
+        "label": "5 U.S.C. 552a: access, amendment, and record quality",
+        "url": "https://www.law.cornell.edu/uscode/text/5/552a"
+      },
+      {
+        "label": "NIST SP 800-53 Rev. 5: audit, configuration, and information integrity controls",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      },
+      {
+        "label": "NASA Systems Engineering Handbook: product validation",
+        "url": "https://www.nasa.gov/reference/5-4-product-validation/"
+      }
+    ],
+    "status": "Proposed; untested"
+  }
+]

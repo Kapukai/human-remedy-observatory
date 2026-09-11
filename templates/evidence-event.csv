@@ -1,0 +1,1 @@
+schema_version,event_id,event_series_id,revision,record_action,supersedes_event_ids_json,recorded_at,family_ids_json,system_ids_json,subject_refs_json,event_type,occurrence_value,occurrence_precision,related_event_ids_json,claims_json,sources_json,review_json,verification_json,revision_reason

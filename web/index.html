@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human Remedy Observatory — Research workbench</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="analysis.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to research</a>
+  <header class="masthead">
+    <p class="eyebrow">KAPUKAI GOVERNANCE LAB · RESEARCH WORKBENCH</p>
+    <h1>Human Remedy<br><span>Observatory</span></h1>
+    <p class="intro">Trace a challenged decision from its evidence to its remedy. Explore what the record establishes, what remains uncertain, and what we can test next.</p>
+    <div class="masthead-links"><a href="../README.md">Project guide</a><a href="../methods/CODEBOOK.md">Codebook</a><a href="../methods/HABEAS_CASES.md">Habeas sources</a><a href="../methods/ANALYSIS_PLAN.md">Analysis plan</a></div>
+  </header>
+  <nav class="tabs" aria-label="Research views">
+    <button type="button" data-view="atlas" class="active" aria-current="page">01 / Case atlas</button>
+    <button type="button" data-view="relationships">02 / Relationships</button>
+    <button type="button" data-view="corpus">03 / Larger corpus</button>
+    <button type="button" data-view="research">04 / Research &amp; legislation</button>
+  </nav>
+  <main id="main">
+    <div id="load-status" role="status">Loading versioned research files…</div>
+    <section id="atlas-controls" class="controls" aria-label="Case filters" hidden>
+      <label>Jurisdiction<select id="country"><option value="US">United States</option><option value="all">All jurisdictions</option></select></label>
+      <label>Responsibility<select id="sector"><option value="all">All sectors</option><option>Public</option><option>Private</option><option>Mixed</option></select></label>
+      <label>System type<select id="technology"><option value="all">All system types</option><option>Physical</option><option>Administrative</option><option>Computerized</option></select></label>
+      <label>Find a case<input id="search" type="search" maxlength="500" placeholder="Case, topic, or description"></label>
+      <div class="checks"><label><input id="habeas" type="checkbox"> Habeas only</label><label><input id="alternative" type="checkbox"> Alternative sector coding</label><label><input id="comparator" type="checkbox"> Organization comparator</label></div>
+      <div class="filter-actions"><button id="reset" type="button">Reset filters</button><button id="download-json" type="button">Export selection · JSON</button><button id="download-csv" type="button">Export selection · CSV</button></div>
+    </section>
+    <p id="selection-note" class="method-note" hidden></p>
+    <section id="view-toolbar" class="view-toolbar" aria-label="Current view and bookmark" hidden>
+      <div><p id="current-view-summary" class="current-view-summary"></p><div id="view-chips" class="view-chips"></div></div>
+      <button id="copy-view-link" type="button">Copy view link</button>
+      <p class="view-link-note">Local view link: opens this selection on a checkout running the same port and data. This is not a public dashboard URL.</p>
+      <p id="copy-link-status" class="view-link-note" role="status"></p>
+      <label id="copy-link-fallback" class="copy-link-fallback" hidden>Copy this local view URL<input id="view-url" type="text" readonly spellcheck="false"></label>
+    </section>
+    <div id="metrics" class="metrics"></div>
+    <section id="view-atlas" class="view" aria-label="Case atlas"></section>
+    <section id="view-relationships" class="view" aria-label="Relationships" hidden></section>
+    <section id="view-corpus" class="view" aria-label="Larger source corpus" hidden></section>
+    <section id="view-research" class="view" aria-label="Research and legislation" hidden></section>
+  </main>
+  <footer><p><strong>Read the source. Preserve the distinction.</strong> Allegation ≠ finding. Review ≠ release. Judgment ≠ verified correction. These visualizations do not establish causation or population success rates.</p><p>Local research workspace · <a href="../methods/PUBLICATION_AND_LEGAL_SCOPE.md">Publication and legal scope</a> · <a href="../CONTRIBUTING.md">Corrections</a></p></footer>
+</body>
+</html>
